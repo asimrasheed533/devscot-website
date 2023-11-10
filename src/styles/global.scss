@@ -90,7 +90,7 @@ body {
   padding: 4em 1em;
   max-width: 1300px;
   margin: 0 auto;
-  margin-top: 7em;
+  margin-top: 14em;
 }
 .about__contaner__text {
   display: flex;
@@ -105,7 +105,7 @@ body {
   position: absolute;
   background-repeat: no-repeat;
   top: 0;
-  right: 0;
+  right: 5em;
   z-index: -1;
 }
 .about__contaner__overlay__img {
@@ -113,7 +113,7 @@ body {
   height: 400px;
   width: 400px;
   object-fit: contain;
-  animation: spin 10s linear infinite;
+  animation: spin 20s linear infinite;
 }
 @keyframes spin {
   0% {
@@ -134,10 +134,10 @@ body {
   margin-left: 0.3em;
 }
 .about__contaner__text__sub__heading {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 28px;
   margin-bottom: 1em;
-  font-weight: 400;
+  font-weight: 300;
   padding-right: 5em;
   width: 100%;
 }
@@ -222,6 +222,13 @@ body {
 @media screen and (max-width: 1130px) {
 }
 @media screen and (max-width: 850px) {
+  .about__contaner__overlay {
+    top: 80px;
+  }
+  .about__contaner__overlay__img {
+    width: 250px;
+    height: 250px;
+  }
   .main__header__container__img__view {
     top: 6em;
   }
@@ -237,9 +244,13 @@ body {
   }
   .about__contaner__text__sub__heading {
     padding: 0em;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 950px) {
+  .about__contaner {
+    margin-top: 23em;
+  }
   .main__header__container__img__view {
     top: 13em;
     left: 6em;
@@ -270,6 +281,9 @@ body {
   }
 }
 @media screen and (max-width: 550px) {
+  .about__contaner__text__sub__heading {
+    font-size: 14px;
+  }
   .main__header__container__text__heading {
     font-size: 26px;
     line-height: 30px;

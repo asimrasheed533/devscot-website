@@ -79,11 +79,11 @@ export default function Index() {
       </div>
       <div className="about__contaner">
         <div className="about__contaner__overlay">
-          {/* <img
+          <img
             src={aboutball}
             alt="about"
             className="about__contaner__overlay__img"
-          /> */}
+          />
         </div>
         <div className="about__contaner__text">
           <div className="about__contaner__text__heading">
