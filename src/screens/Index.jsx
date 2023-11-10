@@ -7,8 +7,8 @@ import uiux from "../assets/uiux.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination } from "swiper/modules";
+// import "swiper/css/pagination";
+// import { Pagination } from "swiper/modules";
 export default function Index() {
   const [swiperSlides, setSwiperSlides] = React.useState(4);
 
@@ -164,8 +164,8 @@ export default function Index() {
             pagination={{
               clickable: true,
             }}
-            modules={[Pagination]}
-            slidesPerView={swiperSlides}
+            // modules={[Pagination]}
+            // slidesPerView={swiperSlides}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
           >
