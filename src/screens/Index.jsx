@@ -1,11 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import appimg from "../assets/appimg.png";
 import aboutball from "../assets/aboutball.png";
 import cardimg from "../assets/cardimg.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 export default function Index() {
-  useEffect(() => {}, []);
+  const [swiperSlides, setSwiperSlides] = React.useState(false);
+
+  const CheckWidth = () => {
+    if (window.innerWidth < 1200) {
+      setSwiperSlides(4.5);
+    } else if (window.innerWidth < 900) {
+      setSwiperSlides(3.5);
+    } else if (window.innerWidth < 750) {
+      setSwiperSlides(2.5);
+    } else if (window.innerWidth < 576) {
+      setSwiperSlides(1.5);
+    } else {
+      setSwiperSlides(1);
+    }
+  };
+  useEffect(() => {
+    CheckWidth();
+    window.addEventListener("resize", CheckWidth);
+    return () => window.removeEventListener("resize", CheckWidth);
+  }, [swiperSlides]);
 
   return (
     <>
@@ -128,7 +147,7 @@ export default function Index() {
         <div className="services__container__card__wraper">
           <Swiper
             spaceBetween={50}
-            slidesPerView={3}
+            slidesPerView={4}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
           >
