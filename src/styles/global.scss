@@ -72,11 +72,59 @@ body {
   color: #6554dc;
   background-color: white;
 }
+.about__contaner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 4em 1em;
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 7em;
+}
+.about__contaner__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  padding: 0em 2em;
+}
+.about__contaner__overlay {
+  // background-image: url("../assets/aboutball.png");
+
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.about__contaner__overlay img {
+  border-radius: 300px;
+  // background-color: transparent;
+  height: 400px;
+  width: 400px;
+}
+.about__contaner__text__heading {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 50px;
+  margin-bottom: 0.4em;
+}
+.about__contaner__text__heading span {
+  margin-left: 0.3em;
+}
+.about__contaner__text__sub__heading {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 1em;
+  font-weight: 300;
+  padding-right: 5em;
+  width: 100%;
+}
 @media screen and (max-width: 1130px) {
   .main__header__container__text__heading {
     width: 100%;
-    // font-size: 42px;
-    // line-height: 44px;
   }
 }
 @media screen and (max-width: 850px) {
@@ -89,8 +137,14 @@ body {
   .main__header__container__img__view {
     top: 19em;
   }
+  .about__contaner {
+    margin-top: 20em;
+  }
+  .about__contaner__text__sub__heading {
+    padding: 0em;
+  }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .main__header__container__text__heading__overlay svg {
     width: 400px;
   }
