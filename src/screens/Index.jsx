@@ -10,13 +10,13 @@ import "swiper/css";
 // import "swiper/css/pagination";
 // import { Pagination } from "swiper/modules";
 export default function Index() {
-  const [swiperSlides, setSwiperSlides] = React.useState(4);
+  const [swiperSlides, setSwiperSlides] = React.useState(5);
 
   const checkWidth = () => {
     if (window.innerWidth > 1366) {
-      setSwiperSlides(4);
+      setSwiperSlides(4.5);
     } else if (window.innerWidth > 1200) {
-      setSwiperSlides(3.5);
+      setSwiperSlides(4);
     } else if (window.innerWidth > 900) {
       setSwiperSlides(3);
     } else if (window.innerWidth > 730) {
