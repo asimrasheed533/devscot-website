@@ -122,6 +122,45 @@ body {
   padding-right: 5em;
   width: 100%;
 }
+.services__container__main {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 3em 1em;
+}
+.services__container__heading {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 50px;
+  margin-bottom: 0.4em;
+  color: white;
+  width: 20px;
+}
+.services__container__card__wraper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.services__container__card {
+  position: relative;
+  width: 250px;
+  // margin: 0em 1em;
+  margin-right: 1em;
+}
+.services__container__card__img img {
+  height: 350px;
+  width: 300px;
+}
+.services__container__card__text {
+  position: absolute;
+  bottom: 0em;
+  padding: 0.5em;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+}
 @media screen and (max-width: 1130px) {
   .main__header__container__text__heading {
     width: 100%;

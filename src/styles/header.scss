@@ -5,10 +5,10 @@
   padding: 0rem 2rem;
   width: 100%;
   max-width: 1300px;
-  //   margin-top: 1em;
-  position: relative;
-  margin: 0 auto;
-  top: 3.5em;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0.5em;
 }
 .header__nav__container__logo svg {
   width: 120px;
