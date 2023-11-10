@@ -23,8 +23,10 @@ export default function Index() {
       setSwiperSlides(2.2);
     } else if (window.innerWidth > 600) {
       setSwiperSlides(2);
+    } else if (window.innerWidth > 450) {
+      setSwiperSlides(1.5);
     } else {
-      setSwiperSlides(1.2);
+      setSwiperSlides(1);
     }
   };
   useEffect(() => {
@@ -160,12 +162,12 @@ export default function Index() {
         </div>
         <div className="services__container__card__wraper">
           <Swiper
-            spaceBetween={30}
+            spaceBetween={50}
             pagination={{
               clickable: true,
             }}
             // modules={[Pagination]}
-            // slidesPerView={swiperSlides}
+            slidesPerView={swiperSlides}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
           >
