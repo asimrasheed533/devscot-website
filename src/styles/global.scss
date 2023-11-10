@@ -149,9 +149,13 @@ body {
   // margin: 0em 1em;
   margin-right: 1em;
 }
+.services__container__card__img {
+  width: 100%;
+  // padding: 1em;
+}
 .services__container__card__img img {
   height: 350px;
-  width: 300px;
+  // width: 300px;
 }
 .services__container__card__text {
   position: absolute;
@@ -160,6 +164,9 @@ body {
   font-size: 30px;
   color: rgb(0, 0, 0);
   font-weight: 900;
+}
+.swiper-pagination-bullet {
+  background-color: rgb(0, 0, 0);
 }
 @media screen and (max-width: 1130px) {
   .main__header__container__text__heading {

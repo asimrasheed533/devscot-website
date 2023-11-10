@@ -4,26 +4,30 @@ import aboutball from "../assets/aboutball.png";
 import cardimg from "../assets/cardimg.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
 export default function Index() {
-  const [swiperSlides, setSwiperSlides] = React.useState(false);
+  const [swiperSlides, setSwiperSlides] = React.useState(4);
 
-  const CheckWidth = () => {
-    if (window.innerWidth < 1200) {
-      setSwiperSlides(4.5);
-    } else if (window.innerWidth < 900) {
+  const checkWidth = () => {
+    if (window.innerWidth > 1366) {
+      setSwiperSlides(4);
+    } else if (window.innerWidth > 1200) {
       setSwiperSlides(3.5);
-    } else if (window.innerWidth < 750) {
-      setSwiperSlides(2.5);
-    } else if (window.innerWidth < 576) {
-      setSwiperSlides(1.5);
+    } else if (window.innerWidth > 900) {
+      setSwiperSlides(3);
+    } else if (window.innerWidth > 730) {
+      setSwiperSlides(2.2);
+    } else if (window.innerWidth > 600) {
+      setSwiperSlides(2);
     } else {
-      setSwiperSlides(1);
+      setSwiperSlides(1.2);
     }
   };
   useEffect(() => {
-    CheckWidth();
-    window.addEventListener("resize", CheckWidth);
-    return () => window.removeEventListener("resize", CheckWidth);
+    checkWidth();
+    window.addEventListener("resize", checkWidth);
+    return () => window.removeEventListener("resize", checkWidth);
   }, [swiperSlides]);
 
   return (
@@ -146,11 +150,21 @@ export default function Index() {
         </div>
         <div className="services__container__card__wraper">
           <Swiper
-            spaceBetween={50}
-            slidesPerView={4}
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Pagination]}
+            slidesPerView={swiperSlides}
             onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
           >
+            <SwiperSlide>
+              <ServicesCard cardimg={cardimg} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <ServicesCard cardimg={cardimg} />
+            </SwiperSlide>
             <SwiperSlide>
               <ServicesCard cardimg={cardimg} />
             </SwiperSlide>
