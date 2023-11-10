@@ -2,12 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0rem 1rem;
   width: 100%;
   max-width: 1300px;
+  //   margin-top: 1em;
+  position: relative;
   margin: 0 auto;
-  margin-top: 2em;
-  z-index: 9999;
+  top: 3.5em;
 }
 .header__nav__container__logo svg {
   width: 100px;

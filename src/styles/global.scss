@@ -13,7 +13,7 @@ body {
 }
 .main__header__container {
   background-color: #6554dc;
-  padding: 1em 3em;
+  padding: 5em 3em;
   border-radius: 20px;
   width: 100%;
   max-width: 1300px;
@@ -21,8 +21,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1em;
-  // height: 400px;
 }
 .main__header__container__text {
   flex: 1;
@@ -42,17 +40,16 @@ body {
   margin: 1em 0em;
 }
 .main__header__container__imgs {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
 }
 .main__header__container__img__view {
   width: 100%;
-  position: relative;
-  // width: 500px;
-  top: 5em;
+  position: absolute;
+  width: 350px;
+  top: 7em;
   object-fit: contain;
 }
 .main__header__container__text__btn button {
