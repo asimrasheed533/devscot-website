@@ -1,6 +1,8 @@
-import React from "react";
-
+import React, { useState } from "react";
+import { Menu, X } from "react-feather";
+import { NavLink } from "react-router-dom";
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       <div className="header__nav__container">
@@ -51,14 +53,36 @@ export default function Header() {
           </svg>
         </div>
         <div className="header__nav__container__menu">
-          <div className="header__nav__container__menu__links">Home</div>
-          <div className="header__nav__container__menu__links">Our Company</div>
-          <div className="header__nav__container__menu__links">Our Work</div>
-          <div className="header__nav__container__menu__links">Blogs</div>
-          <div className="header__nav__container__menu__links__btn">
+          <NavLink className="header__nav__container__menu__links">
+            Home
+          </NavLink>
+          <NavLink className="header__nav__container__menu__links">
+            Our Company
+          </NavLink>
+          <NavLink className="header__nav__container__menu__links">
+            Our Work
+          </NavLink>
+          <NavLink className="header__nav__container__menu__links">
+            Blogs
+          </NavLink>
+          <NavLink className="header__nav__container__menu__links__btn">
             Get Free Quote
-          </div>
+          </NavLink>
         </div>
+        <button
+          className="header__content__menu"
+          onClick={() => {
+            setIsOpen(!isOpen);
+          }}
+          type="button"
+          title="open close menu"
+        >
+          {isOpen ? (
+            <X size={20} color="currentColor" />
+          ) : (
+            <Menu size={20} color="currentColor" />
+          )}
+        </button>
       </div>
     </>
   );
