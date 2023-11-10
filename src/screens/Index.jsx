@@ -41,6 +41,12 @@ export default function Index() {
           />
         </div>
       </div>
+      <div className="about__contaner">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+        suscipit sapiente ea quae ut recusandae laborum! Sequi, accusamus
+        tempora nemo beatae distinctio natus ullam, delectus perferendis,
+        eligendi pariatur optio quam.
+      </div>
     </>
   );
 }
