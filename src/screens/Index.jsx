@@ -1,7 +1,10 @@
 import React, { useEffect } from "react";
 import appimg from "../assets/appimg.png";
 import aboutball from "../assets/aboutball.png";
-import cardimg from "../assets/cardimg.png";
+import mobile from "../assets/mobile.png";
+import web from "../assets/web.png";
+import uiux from "../assets/uiux.png";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -59,7 +62,10 @@ export default function Index() {
             </svg>
           </div>
           <div className="main__header__container__text__btn">
-            <button>Check out our work</button>
+            {/* <button>Check out our work</button> */}
+            <button class="button">
+              <p>Check out our work</p>
+            </button>
           </div>
         </div>
         <div className="main__header__container__imgs">
@@ -72,7 +78,11 @@ export default function Index() {
       </div>
       <div className="about__contaner">
         <div className="about__contaner__overlay">
-          <img src={aboutball} alt="about" />
+          <img
+            src={aboutball}
+            alt="about"
+            className="about__contaner__overlay__img"
+          />
         </div>
         <div className="about__contaner__text">
           <div className="about__contaner__text__heading">
@@ -160,40 +170,48 @@ export default function Index() {
             onSwiper={(swiper) => console.log(swiper)}
           >
             <SwiperSlide>
-              <ServicesCard cardimg={cardimg} />
+              <ServicesCard cardimg={web} text="WEB DEVELOPMENT" />
             </SwiperSlide>
             <SwiperSlide>
-              <ServicesCard cardimg={cardimg} />
+              <ServicesCard cardimg={mobile} text="MOBILE APP DEVELOMENT" />
             </SwiperSlide>
             <SwiperSlide>
-              <ServicesCard cardimg={cardimg} />
+              <ServicesCard cardimg={uiux} text="UI/UX DESIGNING" />
             </SwiperSlide>
             <SwiperSlide>
-              <ServicesCard cardimg={cardimg} />
+              <ServicesCard
+                cardimg={web}
+                text="Startup
+Services"
+              />
             </SwiperSlide>
             <SwiperSlide>
-              <ServicesCard cardimg={cardimg} />
+              <ServicesCard cardimg={mobile} text="APP DEVELOMENT" />
             </SwiperSlide>
             <SwiperSlide>
-              <ServicesCard cardimg={cardimg} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <ServicesCard cardimg={cardimg} />
+              <ServicesCard cardimg={uiux} text="UI/UX" />
             </SwiperSlide>
           </Swiper>
         </div>
+      </div>
+      <div class="grid__container">
+        <div class="grid__item">Item 1</div>
+        <div class="grid__item">Item 2</div>
+        <div class="grid__item">Item 3</div>
+        <div class="grid__item">Item 4</div>
+        <div class="grid__item">Item 5</div>
       </div>
     </>
   );
 }
 
-function ServicesCard({ cardimg }) {
+function ServicesCard({ cardimg, text }) {
   return (
     <div className="services__container__card">
       <div className="services__container__card__img">
         <img src={cardimg} alt="our services" />
       </div>
-      <div className="services__container__card__text">WEB DEVELOPMENT</div>
+      <div className="services__container__card__text">{text}</div>
     </div>
   );
 }
