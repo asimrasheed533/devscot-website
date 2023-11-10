@@ -26,7 +26,7 @@ export default function Index() {
     } else if (window.innerWidth > 450) {
       setSwiperSlides(1.5);
     } else {
-      setSwiperSlides(1);
+      setSwiperSlides(1.3);
     }
   };
   useEffect(() => {
