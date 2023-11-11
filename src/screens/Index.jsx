@@ -65,7 +65,8 @@ export default function Index() {
               </svg>
             </div>
             <div className="main__header__container__text__btn">
-              <button>Check out our work</button>
+              {/* <button>Check out our work</button> */}
+              <button class="btn"> Button</button>
             </div>
           </div>
           <div className="main__header__container__imgs">

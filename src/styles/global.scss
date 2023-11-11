@@ -76,12 +76,15 @@ body {
   font-weight: 500;
   cursor: pointer;
   transition: 300ms ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.main__header__container__text__btn button:hover {
-  transition: 300ms ease-in-out;
-  color: #6554dc;
-  background-color: white;
-}
+// .main__header__container__text__btn button:hover {
+//   transition: 300ms ease-in-out;
+//   color: #6554dc;
+//   background-color: white;
+// }
 .about__contaner {
   width: 100%;
   display: flex;
@@ -273,9 +276,9 @@ body {
   }
 }
 @media screen and (max-width: 650px) {
-  .main__header__container__text__btn button {
-    padding: 0em 1em;
-  }
+  // .main__header__container__text__btn button {
+  //   padding: 0em 1em;
+  // }
   .main__header__container__img__view {
     width: 300px;
     top: 20em;
