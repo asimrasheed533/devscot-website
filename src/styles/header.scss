@@ -9,6 +9,11 @@
   left: 50%;
   transform: translateX(-50%);
   top: 1.5em;
+  z-index: 9999;
+  position: fixed;
+}
+.nav__bar__wraper__active {
+  background-color: #ff0b0bc7;
 }
 .header__nav__container__logo svg {
   width: 150px;
@@ -17,6 +22,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.active {
+  background-color: #ffffff4f;
+  font-weight: 600;
+  transition: all 300ms ease-in-out;
 }
 .header__nav__container__menu__links {
   color: white;

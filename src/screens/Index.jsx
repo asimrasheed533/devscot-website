@@ -91,8 +91,8 @@ export default function Index() {
             ABOUT
             <span>
               <svg
-                width="83"
-                height="31"
+                width="80"
+                height="30"
                 viewBox="0 0 83 31"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -133,10 +133,10 @@ export default function Index() {
         <div className="services__container__main__wraper">
           <div className="services__container__heading">
             OUR{" "}
-            <span>
+            <div className="sevrive__svg">
               <svg
-                width="298"
-                height="31"
+                width="150"
+                height="20"
                 viewBox="0 0 298 31"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -159,7 +159,7 @@ export default function Index() {
                   mask="url(#path-1-outside-1_418_8)"
                 />
               </svg>
-            </span>
+            </div>
           </div>
           <div className="services__container__btn">
             <button class="learn-more">
@@ -173,7 +173,7 @@ export default function Index() {
 
         <div className="services__container__card__wraper">
           <Swiper
-            spaceBetween={50}
+            spaceBetween={10}
             pagination={{
               clickable: true,
             }}
@@ -207,13 +207,13 @@ Services"
           </Swiper>
         </div>
       </div>
-      <div class="grid__container">
+      {/* <div class="grid__container">
         <div class="grid__item">Item 1</div>
         <div class="grid__item">Item 2</div>
         <div class="grid__item">Item 3</div>
         <div class="grid__item">Item 4</div>
         <div class="grid__item">Item 5</div>
-      </div>
+      </div> */}
     </>
   );
 }

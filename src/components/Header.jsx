@@ -35,6 +35,11 @@ export default function Header() {
             setIsOpen(false);
           }
         }}
+        className={
+          isScrolled
+            ? "header__nav__container nav__bar__wraper__active"
+            : "header__nav__container"
+        }
       >
         <div className="header__nav__container">
           <div className="header__nav__container__logo">
@@ -86,21 +91,37 @@ export default function Header() {
 
           {isOpen ? (
             <div className="header__nav__container__menu">
-              <NavLink className="header__nav__container__menu__links">
+              <NavLink
+                to="/"
+                activeClassName="active"
+                className="header__nav__container__menu__links"
+              >
                 Home
               </NavLink>
-              <NavLink className="header__nav__container__menu__links">
+              <NavLink
+                to="/a"
+                activeClassName="active"
+                className="header__nav__container__menu__links"
+              >
                 Our Company
               </NavLink>
-              <NavLink className="header__nav__container__menu__links">
+              <NavLink
+                to="/s"
+                activeClassName="active"
+                className="header__nav__container__menu__links"
+              >
                 Our Work
               </NavLink>
-              <NavLink className="header__nav__container__menu__links">
+              <NavLink
+                to="/f"
+                activeClassName="active"
+                className="header__nav__container__menu__links"
+              >
                 Blogs
               </NavLink>
-              <NavLink className="header__nav__container__menu__links__btn">
+              <div className="header__nav__container__menu__links__btn">
                 Get Free Quote
-              </NavLink>
+              </div>
             </div>
           ) : null}
 
