@@ -128,14 +128,12 @@ body {
   }
 }
 .about__contaner__text__heading {
+  display: flex;
   font-size: 40px;
   font-weight: 900;
   line-height: 50px;
   margin-bottom: 0.4em;
   font-family: Akira;
-}
-.about__contaner__text__heading span {
-  margin-left: 0.3em;
 }
 .about__contaner__text__sub__heading {
   line-height: 24px;
@@ -170,8 +168,10 @@ body {
   color: white;
   font-family: Akira;
 }
-.sevrive__svg svg {
-  width: 150px;
+.sevrive__svg {
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  color: transparent;
+  font-family: Akira;
 }
 .services__container__card__wraper {
   display: flex;
