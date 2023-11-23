@@ -14,19 +14,17 @@ export default function Index() {
 
   const checkWidth = () => {
     if (window.innerWidth > 1366) {
-      setSwiperSlides(3.5);
+      setSwiperSlides(3.8);
     } else if (window.innerWidth > 1200) {
-      setSwiperSlides(3);
+      setSwiperSlides(3.3);
     } else if (window.innerWidth > 900) {
       setSwiperSlides(3);
     } else if (window.innerWidth > 730) {
       setSwiperSlides(2.5);
     } else if (window.innerWidth > 600) {
       setSwiperSlides(2.3);
-    } else if (window.innerWidth > 450) {
-      setSwiperSlides(1.5);
     } else {
-      setSwiperSlides(1.3);
+      setSwiperSlides(1.2);
     }
   };
   useEffect(() => {
