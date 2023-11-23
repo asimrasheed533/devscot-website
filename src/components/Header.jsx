@@ -5,9 +5,10 @@ import { NavLink } from "react-router-dom";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  console.log("isScrolled", isScrolled);
 
   function changeNavOpenClose() {
-    if (window.innerWidth <= 900) {
+    if (window.innerWidth <= 950) {
       setIsOpen(false);
     } else {
       setIsOpen(true);
@@ -24,6 +25,7 @@ export default function Header() {
       } else {
         setIsScrolled(false);
       }
+      window.scrollY > 0 ? setIsScrolled(true) : setIsScrolled(false);
     });
   }, []);
 
@@ -31,17 +33,18 @@ export default function Header() {
     <>
       <ClickAwayListener
         onClickAway={() => {
-          if (window.innerWidth <= 900) {
+          if (window.innerWidth <= 950) {
             setIsOpen(false);
           }
         }}
-        className={
-          isScrolled
-            ? "header__nav__container nav__bar__wraper__active"
-            : "header__nav__container"
-        }
       >
-        <div className="header__nav__container">
+        <div
+          className={
+            isScrolled
+              ? "header__nav__container nav__bar__wraper__active"
+              : "header__nav__container"
+          }
+        >
           <div className="header__nav__container__logo">
             <svg
               width="201"
