@@ -2,15 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0rem 2rem;
+  padding: 0em 2em;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1366px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 1.5em;
+  top: 2em;
   z-index: 9999;
+  padding: 0 4em;
   position: fixed;
+  // display: none;
 }
 .nav__bar__wraper__active {
   background-color: #ff0b0bc7;
