@@ -319,6 +319,9 @@ body {
 }
 
 @media (max-width: 700px) {
+  .services__container__main {
+    padding: 0 2em;
+  }
   .main__header__container__text {
     margin-top: 2em;
   }
