@@ -81,8 +81,8 @@
   margin: 1em;
   padding: 0.5em;
   border-radius: 60px;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,7 +90,6 @@
 }
 .footer__testim__wrapaer__quote__row__svg svg {
   color: black;
-  width: 60px;
 }
 .footer__testim__wrapaer__quote__row__svg:hover {
   background-color: #4733b5;
@@ -196,6 +195,10 @@
   transition: 300ms ease-in-out;
   border-bottom: 1px solid #ffffff;
   cursor: pointer;
+}
+.footer__explore__container__col__entry svg:hover {
+  color: #0a1afa;
+  transition: 300ms ease-in-out;
 }
 @media (max-width: 1200px) {
   .footer__explore__container__row__bottom {
