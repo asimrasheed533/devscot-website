@@ -44,6 +44,83 @@
   font-weight: bolder;
   color: white;
 }
+.contact__card__row__wraper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 2em 4em;
+}
+.contact__card__row__wraper__col__left {
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 39px;
+  background: #232323;
+}
+.contact__card__row__wraper__col__form {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 2em;
+  color: white;
+}
+.contact__card__col__form__text {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 2em;
+}
+.contact__card__row__wraper__col__form__input {
+  margin: 0.6em 0;
+}
+.contact__card__col__form__heading {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.contact__card__col__form__sub__heading {
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+.contact__card__row__wraper__col__form__input {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.contact__card__row__wraper__col__form__input input {
+  width: 100%;
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 1px solid #787878;
+  outline: none;
+  color: #c1c1c1;
+  padding-bottom: 0.5em;
+}
+.contact__card__row__wraper__col__form__input input::placeholder {
+  color: #c1c1c1;
+}
+.contact__card__row__wraper__col__form__btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  margin: 2em 0;
+  padding-top: 1em;
+}
+.contact__card__row__wraper__col__form__btn__svg {
+  position: absolute;
+  right: 3em;
+}
+.contact__card__row__wraper__col__form__btn__text {
+  z-index: 1;
+}
 @media (max-width: 900px) {
   .contact__main__container__header__over {
     padding: 0 2em;
