@@ -125,7 +125,7 @@
 .footer__explore__container__row__upper__btn__entry {
   background-color: transparent;
   border: 1px solid white;
-  padding: 0.8em 2em;
+  padding: 0.4em 1em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -136,12 +136,12 @@
 }
 .footer__explore__container__row__upper__btn__svg {
   margin-left: 1em;
+  margin-top: 6px;
 }
 .footer__explore__container__row__upper__btn__entry:hover {
   background-color: white;
   color: black;
   transition: 300ms ease-in-out;
-  padding: 0.8em 2.5em;
 }
 .footer__explore__container__row__bottom {
   width: 100%;
