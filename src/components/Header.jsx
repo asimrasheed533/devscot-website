@@ -106,14 +106,14 @@ export default function Header() {
               </NavLink>
               <NavLink
                 onClick={scrollToTop}
-                to="/a"
+                to="/aboutuS"
                 activeClassName="active"
                 className="header__nav__container__menu__links"
               >
-                Our Company
+                About US
               </NavLink>
               <NavLink
-                to="/s"
+                to="/work"
                 onClick={scrollToTop}
                 activeClassName="active"
                 className="header__nav__container__menu__links"
