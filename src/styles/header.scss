@@ -8,7 +8,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 2em;
+  top: 3em;
   z-index: 9999;
   padding: 0 4em;
   position: fixed;
@@ -136,6 +136,18 @@
     color: white;
     transition: 300ms ease-in-out;
   }
+}
+@media (max-width: 700px) {
+  .header__nav__container__logo svg {
+    width: 100px;
+  }
+  .header__content__menu {
+    width: 25px;
+    height: 25px;
+  }
+  // .header__nav__container {
+  //   top: 1em;
+  // }
 }
 // @media screen and (max-width: 1200px) {
 //   .header__nav__container {

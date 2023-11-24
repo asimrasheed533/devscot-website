@@ -122,9 +122,13 @@ export default function Header() {
               >
                 Blogs
               </NavLink>
-              <div className="header__nav__container__menu__links__btn">
+              <NavLink
+                to="/ContactUs"
+                activeClassName="active"
+                className="header__nav__container__menu__links__btn"
+              >
                 Get Free Quote
-              </div>
+              </NavLink>
             </div>
           ) : null}
 
