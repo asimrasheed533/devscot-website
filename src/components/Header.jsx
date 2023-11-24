@@ -5,7 +5,9 @@ import { NavLink } from "react-router-dom";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  console.log("isScrolled", isScrolled);
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   function changeNavOpenClose() {
     if (window.innerWidth <= 950) {
@@ -95,6 +97,7 @@ export default function Header() {
           {isOpen ? (
             <div className="header__nav__container__menu">
               <NavLink
+                onClick={scrollToTop}
                 to="/"
                 activeClassName="active"
                 className="header__nav__container__menu__links"
@@ -102,6 +105,7 @@ export default function Header() {
                 Home
               </NavLink>
               <NavLink
+                onClick={scrollToTop}
                 to="/a"
                 activeClassName="active"
                 className="header__nav__container__menu__links"
@@ -110,6 +114,7 @@ export default function Header() {
               </NavLink>
               <NavLink
                 to="/s"
+                onClick={scrollToTop}
                 activeClassName="active"
                 className="header__nav__container__menu__links"
               >
@@ -117,12 +122,14 @@ export default function Header() {
               </NavLink>
               <NavLink
                 to="/f"
+                onClick={scrollToTop}
                 activeClassName="active"
                 className="header__nav__container__menu__links"
               >
                 Blogs
               </NavLink>
               <NavLink
+                onClick={scrollToTop}
                 to="/ContactUs"
                 activeClassName="active"
                 className="header__nav__container__menu__links__btn"

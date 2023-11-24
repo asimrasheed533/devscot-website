@@ -78,7 +78,29 @@ export default function ContactUs() {
             </div>
           </div>
         </div>
-        <div className="contact__card__row__wraper__col"></div>
+        <div className="contact__card__row__wraper__col__right">
+          <div className="contact__card__col__right__title">OUR CONTACT</div>
+          <div className="contact__card__col__right__heading">
+            Let’s Start Working Together Get in Touch With Devscot
+          </div>
+          <div className="contact__card__col__right__subheading">
+            Get in touch to discuss your employee. give us a call, drop us an
+            email.
+          </div>
+          <div className="contact__card__col__right__line"></div>
+          <div className="contact__card__col__right__address">
+            <div className="contact__card__col__right__address__svg">svg</div>
+            <div className="contact__card__col__right__address__text">
+              Mr John Smith. 132, My Street, Kingston, New York 12401.
+            </div>
+          </div>
+          <div className="contact__card__col__right__address">
+            <div className="contact__card__col__right__address__svg">svg</div>
+            <div className="contact__card__col__right__address__text">
+              +92 304 344 653
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
