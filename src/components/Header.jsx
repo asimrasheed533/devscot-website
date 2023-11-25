@@ -101,7 +101,12 @@ export default function Header() {
           {isOpen ? (
             <div className="header__nav__container__menu">
               <NavLink
-                onClick={scrollToTop}
+                onClick={() => {
+                  if (window.innerWidth <= 950) {
+                    setIsOpen(false);
+                  }
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
                 to="/"
                 activeClassName="active"
                 className="header__nav__container__menu__links"
@@ -109,7 +114,12 @@ export default function Header() {
                 Home
               </NavLink>
               <NavLink
-                onClick={scrollToTop}
+                onClick={() => {
+                  if (window.innerWidth <= 950) {
+                    setIsOpen(false);
+                  }
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
                 to="/aboutus"
                 activeClassName="active"
                 className="header__nav__container__menu__links"
@@ -118,7 +128,12 @@ export default function Header() {
               </NavLink>
               <NavLink
                 to="/work"
-                onClick={scrollToTop}
+                onClick={() => {
+                  if (window.innerWidth <= 950) {
+                    setIsOpen(false);
+                  }
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
                 activeClassName="active"
                 className="header__nav__container__menu__links"
               >
@@ -126,14 +141,24 @@ export default function Header() {
               </NavLink>
               <NavLink
                 to="/f"
-                onClick={scrollToTop}
+                onClick={() => {
+                  if (window.innerWidth <= 950) {
+                    setIsOpen(false);
+                  }
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
                 activeClassName="active"
                 className="header__nav__container__menu__links"
               >
                 Blogs
               </NavLink>
               <NavLink
-                onClick={scrollToTop}
+                onClick={() => {
+                  if (window.innerWidth <= 950) {
+                    setIsOpen(false);
+                  }
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
                 to="/ContactUs"
                 activeClassName="active"
                 className="header__nav__container__menu__links__btn"
