@@ -1,0 +1,125 @@
+.project {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px 50px 100px;
+  border-top: 1px solid rgb(201, 201, 201);
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: #232323;
+  margin-bottom: 1em;
+
+  h2 {
+    font-size: 40px;
+    margin: 0px;
+    font-weight: 400;
+    transition: all 0.4s;
+  }
+  h3 {
+    font-size: 30px;
+    margin-bottom: 0.5em;
+    color: #b6927e;
+  }
+
+  p {
+    transition: all 0.4s;
+    font-weight: 300;
+  }
+
+  &:last-of-type {
+    border-bottom: 1px solid rgb(201, 201, 201);
+  }
+
+  &:hover {
+    opacity: 0.5;
+
+    h2 {
+      transform: translateX(-10px);
+    }
+
+    p {
+      transform: translateX(10px);
+    }
+  }
+}
+.logoicon {
+  width: 150px;
+
+  margin-right: 1em;
+}
+@media (max-width: 700px) {
+  .project {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+    border-top: 1px solid rgb(201, 201, 201);
+    cursor: pointer;
+    transition: all 0.2s;
+
+    h2 {
+      font-size: 20px;
+      margin: 0px;
+      font-weight: 400;
+      transition: all 0.4s;
+      margin-right: 1em;
+    }
+    h3 {
+      font-size: 18px;
+      color: #b6927e;
+    }
+
+    p {
+      transition: all 0.4s;
+      font-weight: 300;
+      font-size: 10px;
+    }
+
+    &:last-of-type {
+      border-bottom: 1px solid rgb(201, 201, 201);
+    }
+
+    &:hover {
+      opacity: 0.5;
+
+      h2 {
+        transform: translateX(-10px);
+      }
+
+      p {
+        transform: translateX(10px);
+      }
+    }
+  }
+}
+.projectsection__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.projectsection__content__svg {
+  width: 10%;
+}
+.projectsection__content__info {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.projectsection__content__info__heading {
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 0px;
+  font-weight: 400;
+  transition: all 0.4s;
+}
+.projectsection__content__info__detail {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

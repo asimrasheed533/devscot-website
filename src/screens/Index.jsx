@@ -4,6 +4,7 @@ import aboutball from "../assets/aboutball.png";
 import mobile from "../assets/mobile.png";
 import web from "../assets/web.png";
 import uiux from "../assets/uiux.png";
+import Projectss from "../components/Projects";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -135,13 +136,7 @@ Services"
           </Swiper>
         </div>
       </div>
-      {/* <div class="grid__container">
-        <div class="grid__item">Item 1</div>
-        <div class="grid__item">Item 2</div>
-        <div class="grid__item">Item 3</div>
-        <div class="grid__item">Item 4</div>
-        <div class="grid__item">Item 5</div>
-      </div> */}
+      <Projectss />
     </>
   );
 }
