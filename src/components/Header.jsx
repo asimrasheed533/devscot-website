@@ -47,7 +47,11 @@ export default function Header() {
               : "header__nav__container"
           }
         >
-          <div className="header__nav__container__logo">
+          <NavLink
+            to="/"
+            className="header__nav__container__logo"
+            style={{ backgroundColor: "transparent" }}
+          >
             <svg
               width="201"
               height="51"
@@ -92,7 +96,7 @@ export default function Header() {
                 fill="white"
               />
             </svg>
-          </div>
+          </NavLink>
 
           {isOpen ? (
             <div className="header__nav__container__menu">

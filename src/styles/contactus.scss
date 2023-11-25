@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2em;
+  padding: 1em;
   background-color: #1f1f1f;
 }
 .contact__mian__container {
@@ -17,6 +17,7 @@
 }
 .contact__mian__container__img {
   width: 100%;
+  margin-top: 1em;
 }
 .contact__mian__container__img img {
   width: 100%;
@@ -214,6 +215,9 @@
   }
 }
 @media (max-width: 600px) {
+  contact__mian__container {
+    padding: 1em 0em;
+  }
   .contact__card__row__wraper {
     padding: 2em;
   }
