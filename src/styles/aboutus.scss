@@ -172,7 +172,84 @@
 .pricing__main__container__card__entry__info_icon {
   margin-left: 0.5em;
 }
+.number__telling__container__over {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4em;
+  background-image: url(../assets/aboutbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.number__telling__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 4em;
+}
+.number__telling__container__text {
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.number__telling__container__text__heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 0.5em;
+}
+.number__telling__container__text__subheading {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #a1a1aa;
+  max-width: 600px;
+}
+.number__telling__container__card {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #18181b;
+  flex-direction: column;
+  border-radius: 12px;
+  opacity: 0.9;
+}
+.number__telling__container__card__entry {
+  width: 100%;
+  padding: 2em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.number__telling__container__card__entry__line {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(98deg, #6ddcff 0%, #7f60f9 100%);
+}
+.number__telling__container__card__entry__number {
+  font-size: 45px;
+  font-weight: 400;
+  color: white;
+}
+.number__telling__container__card__entry__detail {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #a1a1aa;
+  max-width: 600px;
+  text-align: left;
+}
 @media (max-width: 1050px) {
+  .number__telling__container__text {
+    width: 50%;
+  }
   .provide__main__container__card__wraper {
     // width: 100%;
     min-width: 370px;
@@ -182,6 +259,22 @@
   }
 }
 @media (max-width: 900px) {
+  .number__telling__container__card__entry {
+    align-items: center;
+  }
+  .number__telling__container {
+    padding: 2em;
+  }
+  .number__telling__container {
+    flex-direction: column;
+  }
+  .number__telling__container__card {
+    width: 100%;
+  }
+  .number__telling__container__text {
+    width: 100%;
+    margin-bottom: 2em;
+  }
   .provide__main__container__card__wraper {
     width: 100%;
     min-width: 300px;
@@ -197,6 +290,18 @@
   }
 }
 @media (max-width: 800px) {
+  .pricing__main__container__content__heading {
+    font-size: 1.9rem;
+  }
+  .number__telling__container__text__heading {
+    font-size: 2rem;
+  }
+  .number__telling__container__card__entry__number {
+    font-size: 35px;
+  }
+  .number__telling__container__card__entry {
+    padding: 1em;
+  }
   .pricing__main__container__card__wraper {
     width: 100%;
   }
