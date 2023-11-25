@@ -468,3 +468,43 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
   color: #fff;
 }
+.popupContrainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a57e57;
+  z-index: 9999999999;
+}
+@keyframes popupContainer {
+  // fade to top on close
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+.popupContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 99999999;
+  mix-blend-mode: color-dodge;
+}
+.popupContent img {
+  width: 100%;
+  max-width: 700px;
+}
+.app__gif {
+  position: absolute;
+  z-index: 9999999999;
+}
