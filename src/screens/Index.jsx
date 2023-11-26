@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import appimg from "../assets/appimg.png";
 import aboutball from "../assets/aboutball.png";
 import mobile from "../assets/mobile.png";
 import web from "../assets/web.png";
 import uiux from "../assets/uiux.png";
+import { Fade } from "react-reveal";
 import Projectss from "../components/Projects";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,7 +13,13 @@ import "swiper/css";
 // import { Pagination } from "swiper/modules";
 export default function Index() {
   const [swiperSlides, setSwiperSlides] = React.useState(5);
-
+  const data = [appimg, uiux, appimg, web];
+  const [index, setIndex] = React.useState(0);
+  useMemo(() => {
+    setTimeout(() => {
+      setIndex(index + 1 < data.length ? index + 1 : 0);
+    }, 4000);
+  }, [index]);
   const checkWidth = () => {
     if (window.innerWidth > 1366) {
       setSwiperSlides(3.8);
@@ -46,16 +53,17 @@ export default function Index() {
               POSSIBILITLES
             </div>
             <div className="main__header__container__text__btn">
-              {/* <button>Check out our work</button> */}
               <button class="btn"> Check out our work</button>
             </div>
           </div>
           <div className="main__header__container__imgs">
-            <img
-              className="main__header__container__img__view"
-              src={appimg}
-              alt="app"
-            />
+            <Fade spy={index} duration={2000} appear>
+              <img
+                className="main__header__container__img__view"
+                src={data.filter((_item, i) => i === index).map((item) => item)}
+                alt="app"
+              />
+            </Fade>
           </div>
         </div>
       </div>

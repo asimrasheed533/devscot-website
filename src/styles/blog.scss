@@ -127,13 +127,29 @@
 }
 .blog__detail__container__over {
   width: 100%;
+  position: relative;
+}
+.blog__upper__svg {
+  width: 100%;
+  position: absolute;
+  top: -12em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.blog__bottom__svg {
+  width: 100%;
+  position: absolute;
+  bottom: 0em;
+  // left: 50%;
+  // transform: translateX(-50%);
 }
 .blog__detail__container__content {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2em 4em;
+  padding: 0em 4em;
   display: flex;
+  margin-bottom: 1em;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
@@ -176,7 +192,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  margin-bottom: 1em;
   padding: 2em 0;
 }
 .blog__detail__person__wraper__heading {
