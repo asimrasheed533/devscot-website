@@ -140,7 +140,7 @@ export default function Header() {
                 Our Work
               </NavLink>
               <NavLink
-                to="/f"
+                to="/blog"
                 onClick={() => {
                   if (window.innerWidth <= 950) {
                     setIsOpen(false);
