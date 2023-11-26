@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import aboutus from "../assets/aboutus.png";
 import blogimg from "../assets/blogimg.png";
 export default function Blog() {
@@ -31,13 +32,12 @@ export default function Blog() {
             email.
           </div>
 
-          <button className="blog__card__wraper__text__button">
+          <Link to="/blogdetial" className="blog__card__wraper__text__button">
             Learn More
-          </button>
+          </Link>
         </div>
       </div>
       <div className="blod__card__container">
-        <BlogsCard image={blogimg} />
         <BlogsCard image={blogimg} />
         <BlogsCard image={blogimg} />
         <BlogsCard image={blogimg} />

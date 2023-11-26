@@ -189,12 +189,11 @@
 .footer__explore__container__col__entry {
   margin-bottom: 1em;
   transition: 300ms ease-in-out;
-  border-bottom: 1px solid #513dc0;
 }
 .footer__explore__container__col__entry:hover {
   transition: 300ms ease-in-out;
-  border-bottom: 1px solid #ffffff;
   cursor: pointer;
+  color: #000;
 }
 .footer__explore__container__col__entry svg:hover {
   color: #0a1afa;

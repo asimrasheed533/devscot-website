@@ -49,6 +49,7 @@
   border-radius: 12px;
   margin: 2em 0;
   font-size: 15px;
+  text-decoration: none;
   color: white;
   transition: 300ms ease-in-out;
 }
@@ -124,7 +125,92 @@
   max-width: 400px;
   color: white;
 }
+.blog__detail__container__over {
+  width: 100%;
+}
+.blog__detail__container__content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+}
+.blog__detail__container__content__heading {
+  width: 100%;
+  font-size: 45px;
+  font-weight: 800;
+  max-width: 600;
+  padding-bottom: 1em;
+}
+.blog__detail__person {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.blog__detail__person__img img {
+  max-width: 50px;
+}
+.blog__detail__person__name__waper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 1em;
+}
+.blog__detail__person__name {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0.2em;
+  color: white;
+}
+.blog__detail__person__wraper {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 1em;
+  padding: 2em 0;
+}
+.blog__detail__person__wraper__heading {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 1em;
+  color: white;
+}
+.blog__detail__person__wraper__sub__heading {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 1em;
+  color: white;
+}
+.blog__detail__person__wraper__sub__heading__entry {
+  color: white;
+  position: relative;
+  padding-left: 1em;
+  margin: 0.4em 0;
+}
+.blog__detail__person__wraper__sub__heading__entry::after {
+  content: "";
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 20px;
+}
 @media (max-width: 1100px) {
+  .blog__detail__person__wraper {
+    width: 100%;
+  }
   .blog__card__wraper {
     flex-direction: column;
     align-items: center;
@@ -143,7 +229,20 @@
     text-align: center;
   }
 }
+
 @media (max-width: 800px) {
+  .blog__detail__container__content__heading {
+    font-size: 30px;
+  }
+  .blog__detail__person__wraper__heading {
+    font-size: 24px;
+  }
+  .blog__detail__person__wraper__sub__heading {
+    font-size: 16px;
+  }
+  .blog__detail__container__content {
+    padding: 2em 2em;
+  }
   .blog__card__wraper__text__heading {
     font-size: 2rem;
   }
@@ -181,5 +280,11 @@
   }
   .blog__card__wraper__text__heading {
     font-size: 1.5rem;
+  }
+  .blog__detail__container__content__heading {
+    font-size: 26px;
+  }
+  .blog__detail__person__wraper__heading {
+    font-size: 20px;
   }
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import errorg from "../assets/errorg.gif";
 export default function NotFound() {
   return (
@@ -17,7 +18,8 @@ export default function NotFound() {
         }}
         className="error__main__over"
       >
-        <div
+        <NavLink
+          to="/"
           style={{
             display: "flex",
             justifyContent: "center",
@@ -34,7 +36,7 @@ export default function NotFound() {
           className="back__btn"
         >
           Go back
-        </div>
+        </NavLink>
         <div
           className="error_container"
           style={{ width: "100%", display: "flex" }}
