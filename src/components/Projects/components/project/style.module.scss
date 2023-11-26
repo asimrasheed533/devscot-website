@@ -3,7 +3,7 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 100px 50px 100px;
+  padding: 2em;
   border-top: 1px solid rgb(201, 201, 201);
   cursor: pointer;
   transition: all 0.2s;
@@ -27,21 +27,21 @@
     font-weight: 300;
   }
 
-  &:last-of-type {
-    border-bottom: 1px solid rgb(201, 201, 201);
-  }
+  // &:last-of-type {
+  //   border-bottom: 1px solid rgb(201, 201, 201);
+  // }
 
-  &:hover {
-    opacity: 0.5;
+  // &:hover {
+  //   opacity: 0.5;
 
-    h2 {
-      transform: translateX(-10px);
-    }
+  //   h2 {
+  //     transform: translateX(-10px);
+  //   }
 
-    p {
-      transform: translateX(10px);
-    }
-  }
+  //   p {
+  //     transform: translateX(10px);
+  //   }
+  // }
 }
 .logoicon {
   width: 150px;
@@ -94,6 +94,7 @@
     }
   }
 }
+
 .projectsection__content {
   width: 100%;
   display: flex;
@@ -109,17 +110,55 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  color: white;
 }
 .projectsection__content__info__heading {
-  font-size: 24px;
-  font-weight: bolder;
+  font-size: 30px;
+  font-weight: 800;
   margin: 0px;
-  font-weight: 400;
   transition: all 0.4s;
 }
+.projectsection__content__info__subheading {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 0.5em;
+  font-weight: 400;
+  transition: all 0.4s;
+  -webkit-text-stroke: 1px #515050;
+  font-family: Akira;
+  color: transparent;
+}
 .projectsection__content__info__detail {
-  width: 60%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  color: #adadad;
+  font-size: 16px;
+}
+@media (max-width: 1000px) {
+  .projectsection__content__info {
+    width: 100%;
+    margin-top: 1em;
+  }
+  .projectsection__content__svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .projectsection__content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .projectsection__content__info__heading {
+    text-align: center;
+    width: 100%;
+    margin-top: 0.5em 0;
+  }
+  .projectsection__content__info__detail {
+    text-align: center;
+    width: 100%;
+    margin-top: 1em;
+  }
 }
