@@ -213,6 +213,10 @@
   .contact__mian__container__text__sub__heading {
     font-size: 1rem;
   }
+  .contact__mian__container__img img {
+    height: 300px;
+    border-radius: 20px;
+  }
 }
 @media (max-width: 600px) {
   contact__mian__container {
@@ -233,9 +237,5 @@
   }
   .contact__mian__container__text__sub__heading {
     font-size: 0.8rem;
-  }
-  .contact__mian__container__img img {
-    height: 200px;
-    border-radius: 20px;
   }
 }
