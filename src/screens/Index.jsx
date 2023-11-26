@@ -121,11 +121,7 @@ export default function Index() {
               <ServicesCard cardimg={uiux} text="UI/UX DESIGNING" />
             </SwiperSlide>
             <SwiperSlide>
-              <ServicesCard
-                cardimg={web}
-                text="Startup
-Services"
-              />
+              <ServicesCard cardimg={web} text="Startup Services" />
             </SwiperSlide>
             <SwiperSlide>
               <ServicesCard cardimg={mobile} text="APP DEVELOMENT" />
@@ -136,7 +132,7 @@ Services"
           </Swiper>
         </div>
       </div>
-      <Projectss />
+      {/* <Projectss /> */}
     </>
   );
 }
