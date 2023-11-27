@@ -21,7 +21,7 @@ export default function Home() {
 
   const projects = [
     {
-      src: "aboutball.png",
+      src: "prj01.png",
       svg: (
         <svg
           width="46"

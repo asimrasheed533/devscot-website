@@ -140,7 +140,7 @@ export default function Index() {
           </Swiper>
         </div>
       </div>
-      {/* <Projectss /> */}
+      <Projectss />
     </>
   );
 }

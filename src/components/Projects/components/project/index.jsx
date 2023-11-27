@@ -1,5 +1,12 @@
 import styles from "./style.module.scss";
-export default function index({ index, svg, heading, number, detail }) {
+export default function index({
+  index,
+  svg,
+  manageModal,
+  heading,
+  number,
+  detail,
+}) {
   return (
     <div
       onMouseEnter={(e) => {
