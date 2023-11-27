@@ -117,7 +117,7 @@
   }
   .header__nav__container__menu__links {
     // margin: 1em 0;
-    color: #6554dc;
+    color: #f1f1f1;
     padding: 0.6em 4em;
     margin: 0.3em;
     transition: 300ms ease-in-out;
@@ -128,14 +128,15 @@
     transition: 300ms ease-in-out;
   }
   .header__nav__container__menu__links__btn {
-    border: 1px solid #ffffff;
+    border: 1px solid #6554dc;
     color: #ffffff;
+    background-color: #6554dc;
     margin: 1em 0em;
   }
   .header__nav__container__menu__links__btn:hover {
-    background-color: #6554dc;
-    border: 1px solid #6554dc;
-    color: white;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #6554dc;
     transition: 300ms ease-in-out;
   }
 }
