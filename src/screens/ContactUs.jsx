@@ -1,6 +1,51 @@
-import React from "react";
+import React, { useState } from "react";
 import contactus from "../assets/contactus.png";
 export default function ContactUs() {
+  const [name, setName] = useState("");
+  const [nameError, setNameError] = useState("");
+  const [email, setEmail] = useState("");
+  const [emailError, setEmailError] = useState("");
+  const [message, setMessage] = useState("");
+  const [messageError, setMessageError] = useState("");
+  const [status, setStatus] = useState("");
+
+  function handelSubmit(e) {
+    const validateForm = () => {
+      if (!name) {
+        setNameError("Enter the Name");
+      } else {
+        setNameError(null);
+      }
+      if (!email) {
+        setEmailError("Enter the correct mail addess");
+      } else if (!email.match(/^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/)) {
+        setEmailError("Enter the correct mail addess");
+      } else {
+        setEmailError(null);
+      }
+      if (!message) {
+        setMessageError("Enter the message");
+      } else {
+        setMessageError(null);
+      }
+    };
+    e.preventDefault();
+    validateForm();
+    if (nameError === null && emailError === null && messageError === null) {
+      setStatus("sending");
+      setTimeout(() => {
+        setStatus("send");
+        setName("");
+        setEmail("");
+        setMessage("");
+        alert("Your message has been sent successfully");
+      }, 1000);
+      setTimeout(() => {
+        setStatus("");
+      }, 2000);
+    }
+  }
+
   return (
     <>
       <div className="contact__main__container__header__over">
@@ -31,13 +76,69 @@ export default function ContactUs() {
               </div>
             </div>
             <div className="contact__card__row__wraper__col__form__input">
-              <input type="text" placeholder="Your Name" />
+              <input
+                maxLength={50}
+                error={nameError}
+                value={name}
+                type="text"
+                placeholder="Your Name"
+                onChange={(e) => {
+                  if (!e.target.value) {
+                    setNameError("Enter the Name");
+                  } else {
+                    setNameError(null);
+                  }
+                  setName(e.target.value);
+                }}
+              />
+              {nameError !== "" ? (
+                <p className="alert__error__input">{nameError}</p>
+              ) : null}
             </div>
             <div className="contact__card__row__wraper__col__form__input">
-              <input type="text" placeholder="Website" />
+              <input
+                // maxLength={16}
+                error={emailError}
+                type="email"
+                value={email}
+                placeholder="Enter Email"
+                onChange={(e) => {
+                  if (!e.target.value) {
+                    setEmailError("Enter the correct mail addess");
+                  } else if (
+                    !e.target.value.match(/^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/)
+                  ) {
+                    setEmailError("Enter the correct mail addess");
+                  } else {
+                    setEmailError(null);
+                  }
+                  setEmail(e.target.value);
+                }}
+              />
+              {emailError !== "" ? (
+                <p className="alert__error__input">{emailError}</p>
+              ) : null}
             </div>
             <div className="contact__card__row__wraper__col__form__input">
-              <input type="text" placeholder="Your Comment" />
+              <textarea
+                className="contact__card__row__wraper__col__form__input__textarea"
+                maxLength={150}
+                error={messageError}
+                type="text"
+                value={message}
+                placeholder="Your Comment here..."
+                onChange={(e) => {
+                  if (!e.target.value) {
+                    setMessageError("Enter the message");
+                  } else {
+                    setMessageError(null);
+                  }
+                  setMessage(e.target.value);
+                }}
+              />
+              {messageError !== "" ? (
+                <p className="alert__error__input">{messageError}</p>
+              ) : null}
             </div>
             <div className="contact__card__row__wraper__col__form__btn">
               <div className="contact__card__row__wraper__col__form__btn__svg">
@@ -69,9 +170,12 @@ export default function ContactUs() {
                   </defs>
                 </svg>
               </div>
-              <div className="contact__card__row__wraper__col__form__btn__text">
+              <button
+                onClick={handelSubmit}
+                className="contact__card__row__wraper__col__form__btn__text"
+              >
                 Get in Touch
-              </div>
+              </button>
             </div>
           </div>
         </div>
