@@ -100,14 +100,23 @@
 
 .contact__card__row__wraper__col__form__input input {
   width: 100%;
-  background-color: transparent;
   border: transparent;
   border-bottom: 1px solid #787878;
   outline: none;
   color: #c1c1c1;
-  background-color: transparent;
   padding-bottom: 0.5em;
+  background-color: transparent;
 }
+.contact__card__row__wraper__col__form__input input:focus {
+  background-color: transparent;
+}
+// input:-webkit-autofill,
+// input:-webkit-autofill:hover,
+// input:-webkit-autofill:focus,
+// input:-webkit-autofill:active {
+//   transition: background-color 5000s ease-in-out 0s;
+// }
+
 .contact__card__row__wraper__col__form__input__textarea {
   width: 100%;
   background-color: transparent;
