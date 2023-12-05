@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  margin: 0em;
+}
+.parent {
+  display: grid;
+  grid-gap: 10px;
+  font-size: 3rem;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+  height: fit-content;
+  width: 100%;
+  height: 100%;
+  max-width: 1366px;
+  padding: 0em 1.5em;
+  margin: 0em auto;
+}
+.parent div {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  overflow: hidden;
+  min-height: 300px;
+}
+.parent div img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.parent div:nth-child(1) {
+  grid-area: 1 / 1 / 3 / 4;
+  background-color: cyan;
+}
+.parent div:nth-child(2) {
+  grid-area: 1 / 4 / 3 / 9;
+  background-color: yellow;
+}
+.parent div:nth-child(3) {
+  grid-area: 3 / 6 / 5 / 9;
+  background-color: red;
+}
+.parent div:nth-child(4) {
+  grid-area: 3 / 1 / 6 / 6;
+  background-color: green;
+}
+.parent div:nth-child(5) {
+  grid-area: 5 / 6 / 8 / 9;
+  background-color: blue;
+}
+.parent div:nth-child(6) {
+  grid-area: 8 / 6 / 13 / 9;
+  background-color: orange;
+}
+.parent div:nth-child(7) {
+  grid-area: 6 / 1 / 13 / 3;
+  background-color: pink;
+}
+.parent div:nth-child(8) {
+  grid-area: 6 / 3 / 10 / 6;
+  background-color: purple;
+}
+.parent div:nth-child(9) {
+  grid-area: 10 / 3 / 13 / 6;
+  background-color: brown;
+}
+.normal {
+  background-color: cyan;
+  grid-column: span 3;
+}
+.normal2 {
+  background-color: yellow;
+  grid-column: span 5;
+}
+
+@media (max-width: 900px) {
+  .parent {
+    padding: 0em 1em;
+  }
+}
+
+@media (max-width: 600px) {
+  .parent {
+    padding: 0em 0.5em;
+    grid-template-columns: 1fr;
+  }
+  .parent div {
+    grid-area: span 1 !important;
+  }
+}

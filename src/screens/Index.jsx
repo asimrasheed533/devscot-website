@@ -1,3 +1,4 @@
+import { GridContainer } from "../components/gridContainer";
 import React, { useEffect, useMemo } from "react";
 import appimg from "../assets/appimg.png";
 import aboutball from "../assets/aboutball.png";
@@ -140,6 +141,7 @@ export default function Index() {
           </Swiper>
         </div>
       </div>
+      <GridContainer />
       <Projectss />
     </>
   );

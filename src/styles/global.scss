@@ -508,3 +508,10 @@ button:hover .button-text {
   position: absolute;
   z-index: 9999999999;
 }
+.projects__grid__container__main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4em;
+}

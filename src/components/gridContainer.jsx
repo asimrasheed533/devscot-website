@@ -1,0 +1,46 @@
+import React from "react";
+export function GridContainer({}) {
+  return (
+    <div class="parent">
+      <div class="div1">
+        <img src="https://picsum.photos/1000/1000" />
+      </div>
+      <div class="normal">
+        <img src="https://picsum.photos/1000/1000" />
+      </div>
+      <div class="normal">
+        <img src="https://picsum.photos/1000/1000" />
+      </div>
+      <div class="normal">
+        <img src="https://picsum.photos/1000/1000" />
+      </div>
+      <div class="normal">
+        <img src="https://picsum.photos/1000/1000" />
+      </div>
+      <div class="normal">
+        <img src="https://picsum.photos/1000/1000" />
+      </div>
+      <div class="normal">
+        <img src="https://picsum.photos/1000/1000" />
+      </div>
+      <div class="normal">
+        <img src="https://picsum.photos/1000/1000" />
+      </div>
+      <div class="normal">
+        <img src="https://picsum.photos/1000/1000" />
+      </div>
+      <div class="normal">
+        <img src="https://picsum.photos/1000/1000" />
+      </div>
+      {/* <div class="normal2">
+        <img src="https://picsum.photos/1000/1000" />
+      </div>
+      <div class="normal2">
+        <img src="https://picsum.photos/1000/1000" />
+      </div>
+      <div class="normal">
+        <img src="https://picsum.photos/1000/1000" />
+      </div> */}
+    </div>
+  );
+}
