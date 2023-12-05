@@ -71,7 +71,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 2em;
   color: white;
 }
 .contact__card__col__form__text {
@@ -110,13 +109,14 @@
 .contact__card__row__wraper__col__form__input input:focus {
   background-color: transparent;
 }
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
-  transition: background-color 5000s ease-in-out 0s;
-}
-
+// input:-webkit-autofill,
+// input:-webkit-autofill:hover,
+// input:-webkit-autofill:focus,
+// input:-webkit-autofill:active {
+//   transition: background-color 5000s ease-in-out 0s;
+//   background-color: white !important; /* Set the background color to transparent */
+//   color: white !important; /* Set the text color to white */
+// }
 .contact__card__row__wraper__col__form__input__textarea {
   width: 100%;
   background-color: transparent;
@@ -176,7 +176,7 @@ input:-webkit-autofill:active {
   justify-content: flex-start;
   flex-direction: column;
   color: white;
-  padding: 3em 2em;
+  padding: 4.5em 2em;
   border: 1px solid #787878;
   border-radius: 20px;
 }
