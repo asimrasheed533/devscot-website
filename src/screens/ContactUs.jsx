@@ -38,7 +38,7 @@ export default function ContactUs() {
         setName("");
         setEmail("");
         setMessage("");
-        alert("Your message has been sent successfully");
+        // alert("Your message has been sent successfully");
       }, 1000);
       setTimeout(() => {
         setStatus("");
@@ -97,7 +97,6 @@ export default function ContactUs() {
             </div>
             <div className="contact__card__row__wraper__col__form__input">
               <input
-                // maxLength={16}
                 error={emailError}
                 type="email"
                 value={email}
@@ -122,7 +121,7 @@ export default function ContactUs() {
             <div className="contact__card__row__wraper__col__form__input">
               <textarea
                 className="contact__card__row__wraper__col__form__input__textarea"
-                maxLength={150}
+                maxLength={500}
                 error={messageError}
                 type="text"
                 value={message}
@@ -174,6 +173,7 @@ export default function ContactUs() {
                 onClick={handelSubmit}
                 className="contact__card__row__wraper__col__form__btn__text"
               >
+                {status === "sending" ? <SendingSVG /> : null}
                 Get in Touch
               </button>
             </div>
@@ -230,5 +230,229 @@ export default function ContactUs() {
         </div>
       </div>
     </>
+  );
+}
+export function SendingSVG() {
+  return (
+    <div className="sendingsvg__container">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        style={{
+          margin: "auto",
+          background: "none",
+          display: "block",
+          shapeRendering: "auto",
+          height: "100%",
+        }}
+        width="60px"
+        height="60px"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="xMidYMid"
+      >
+        <g transform="rotate(0 50 50)">
+          <rect x="47" y="24" rx="3" ry="6" width="6" height="12">
+            <animate
+              attributeName="opacity"
+              values="1;0"
+              keyTimes="0;1"
+              dur="1s"
+              begin="-0.9166666666666666s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </g>
+        <g transform="rotate(30 50 50)">
+          <rect x="47" y="24" rx="3" ry="6" width="6" height="12">
+            <animate
+              attributeName="opacity"
+              values="1;0"
+              keyTimes="0;1"
+              dur="1s"
+              begin="-0.8333333333333334s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </g>
+        <g transform="rotate(60 50 50)">
+          <rect x="47" y="24" rx="3" ry="6" width="6" height="12">
+            <animate
+              attributeName="opacity"
+              values="1;0"
+              keyTimes="0;1"
+              dur="1s"
+              begin="-0.75s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </g>
+        <g transform="rotate(90 50 50)">
+          <rect x="47" y="24" rx="3" ry="6" width="6" height="12">
+            <animate
+              attributeName="opacity"
+              values="1;0"
+              keyTimes="0;1"
+              dur="1s"
+              begin="-0.6666666666666666s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </g>
+        <g transform="rotate(120 50 50)">
+          <rect x="47" y="24" rx="3" ry="6" width="6" height="12">
+            <animate
+              attributeName="opacity"
+              values="1;0"
+              keyTimes="0;1"
+              dur="1s"
+              begin="-0.5833333333333334s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </g>
+        <g transform="rotate(150 50 50)">
+          <rect x="47" y="24" rx="3" ry="6" width="6" height="12">
+            <animate
+              attributeName="opacity"
+              values="1;0"
+              keyTimes="0;1"
+              dur="1s"
+              begin="-0.5s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </g>
+        <g transform="rotate(180 50 50)">
+          <rect x="47" y="24" rx="3" ry="6" width="6" height="12">
+            <animate
+              attributeName="opacity"
+              values="1;0"
+              keyTimes="0;1"
+              dur="1s"
+              begin="-0.4166666666666667s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </g>
+        <g transform="rotate(210 50 50)">
+          <rect x="47" y="24" rx="3" ry="6" width="6" height="12">
+            <animate
+              attributeName="opacity"
+              values="1;0"
+              keyTimes="0;1"
+              dur="1s"
+              begin="-0.3333333333333333s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </g>
+        <g transform="rotate(240 50 50)">
+          <rect x="47" y="24" rx="3" ry="6" width="6" height="12">
+            <animate
+              attributeName="opacity"
+              values="1;0"
+              keyTimes="0;1"
+              dur="1s"
+              begin="-0.25s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </g>
+        <g transform="rotate(270 50 50)">
+          <rect x="47" y="24" rx="3" ry="6" width="6" height="12">
+            <animate
+              attributeName="opacity"
+              values="1;0"
+              keyTimes="0;1"
+              dur="1s"
+              begin="-0.16666666666666666s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </g>
+        <g transform="rotate(300 50 50)">
+          <rect x="47" y="24" rx="3" ry="6" width="6" height="12">
+            <animate
+              attributeName="opacity"
+              values="1;0"
+              keyTimes="0;1"
+              dur="1s"
+              begin="-0.08333333333333333s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </g>
+        <g transform="rotate(330 50 50)">
+          <rect x="47" y="24" rx="3" ry="6" width="6" height="12">
+            <animate
+              attributeName="opacity"
+              values="1;0"
+              keyTimes="0;1"
+              dur="1s"
+              begin="0s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </g>
+      </svg>
+    </div>
+  );
+}
+
+function SentSVG() {
+  return (
+    <div className="sent__svg__container">
+      <div className="animation-ctn">
+        <div className="icon icon--order-success svg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="154px" height="154px">
+            <g fill="none" stroke="#a57e57" strokeWidth="2">
+              <circle
+                cx="77"
+                cy="77"
+                r="72"
+                style={{
+                  strokeDasharray: "480px, 480px",
+                  strokeDashoffset: "960px",
+                }}
+              />
+              <circle
+                id="colored"
+                fill="#a57e57"
+                cx="77"
+                cy="77"
+                r="72"
+                style={{
+                  strokeDasharray: "480px, 480px",
+                  strokeDashoffset: "960px",
+                }}
+              />
+              <polyline
+                className="st0"
+                stroke="#fff"
+                strokeWidth="10"
+                points="43.5,77.8 63.7,97.9 112.2,49.4 "
+                style={{
+                  strokeDasharray: "100px, 100px",
+                  strokeDashoffset: "200px",
+                }}
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <p
+        style={{
+          marginTop: "1em",
+          color: "#a57e57",
+          fontWeight: "bold",
+          textAlign: "center",
+          margin: "0",
+          padding: "0",
+          fontSize: "12px",
+        }}
+      >
+        Your message has been sent successfully
+      </p>
+    </div>
   );
 }

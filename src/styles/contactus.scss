@@ -110,12 +110,12 @@
 .contact__card__row__wraper__col__form__input input:focus {
   background-color: transparent;
 }
-// input:-webkit-autofill,
-// input:-webkit-autofill:hover,
-// input:-webkit-autofill:focus,
-// input:-webkit-autofill:active {
-//   transition: background-color 5000s ease-in-out 0s;
-// }
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
 
 .contact__card__row__wraper__col__form__input__textarea {
   width: 100%;
@@ -220,6 +220,16 @@
   position: absolute;
   right: 0;
   top: -1em;
+}
+.sendingsvg__container {
+  width: 100%;
+  position: absolute;
+  top: -2em;
+  left: 0;
+}
+.sendingsvg__container svg {
+  color: white;
+  width: 100px;
 }
 @media (max-width: 1250px) {
   .contact__card__row__wraper__col__left {
