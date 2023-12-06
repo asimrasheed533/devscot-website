@@ -137,6 +137,10 @@
   font-size: 16px;
 }
 @media (max-width: 1000px) {
+  .projectsection__content__info__subheading {
+    width: 100%;
+    text-align: center;
+  }
   .projectsection__content__info {
     width: 100%;
     margin-top: 1em;

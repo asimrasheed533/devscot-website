@@ -5,6 +5,13 @@ body {
   width: 100%;
   margin: 0em;
 }
+.main__grid__overlay {
+  width: 100%;
+  padding: 0 4em;
+  max-width: 1366px;
+  margin: 0em auto;
+  margin-top: 4em;
+}
 .parent {
   display: grid;
   grid-gap: 10px;
@@ -13,10 +20,8 @@ body {
   grid-template-columns: repeat(8, 1fr);
   height: fit-content;
   width: 100%;
-  height: 100%;
-  max-width: 1366px;
-  padding: 0em 1.5em;
-  margin: 0em auto;
+  height: 1344px;
+  margin-top: 1em;
 }
 .parent div {
   border-radius: 10px;
@@ -77,9 +82,9 @@ body {
   grid-column: span 5;
 }
 
-@media (max-width: 900px) {
-  .parent {
-    padding: 0em 1em;
+@media (max-width: 850px) {
+  .main__grid__overlay {
+    padding: 0 2em;
   }
 }
 
@@ -87,8 +92,12 @@ body {
   .parent {
     padding: 0em 0.5em;
     grid-template-columns: 1fr;
+    height: 100%;
   }
   .parent div {
     grid-area: span 1 !important;
+  }
+  .parent div img {
+    max-height: 300px;
   }
 }
