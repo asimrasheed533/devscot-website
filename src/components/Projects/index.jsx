@@ -55,7 +55,7 @@ export default function Home() {
         "Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new.",
     },
     {
-      src: "prj01.png",
+      src: "prj02.png",
       svg: (
         <svg
           width="46"
@@ -89,7 +89,7 @@ export default function Home() {
         "Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new.",
     },
     {
-      src: "prj01.png",
+      src: "prj03.png",
       svg: (
         <svg
           width="44"
@@ -278,7 +278,10 @@ export default function Home() {
                 return (
                   <div
                     className={styles.modal}
-                    style={{ backgroundColor: "#f5f5f5", objectFit: "cover" }}
+                    style={{
+                      backgroundColor: "#232323",
+                      objectFit: "cover",
+                    }}
                     key={`modal_${index}`}
                   >
                     <img
@@ -293,7 +296,7 @@ export default function Home() {
             </div>
           </motion.div>
         </>
-      </main>{" "}
+      </main>
     </div>
   );
 }
