@@ -48,10 +48,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
   }
 
   .modal img {
     height: auto;
+    background-color: transparent;
   }
 
   .cursor,
