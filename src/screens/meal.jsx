@@ -193,6 +193,121 @@ export default function meal() {
           </svg>
         </div>
       </div>
+      <div className="guide__section__wraper">
+        <div className="guide__section__wraper__heading">
+          Visual Style Guide Creation
+        </div>
+        <div className="guide__section__wraper__sub__heading">
+          We created a visual style guide, which was a milestone in the design
+          consistency of the project. Just like the design system, it
+          encompassed all visual elements that can be used across the Infinity
+          platform.
+        </div>
+        <div className="guide__section__card__wraper">
+          <div
+            className="guide__section__card"
+            style={{
+              backgroundColor: " #00CE6E",
+            }}
+          >
+            #00CE6E
+          </div>
+          <div
+            className="guide__section__card"
+            style={{
+              backgroundColor: " #98FFCF",
+              color: "BLACK",
+            }}
+          >
+            #98FFCF
+          </div>
+          <div
+            className="guide__section__card"
+            style={{
+              backgroundColor: " #33373B",
+            }}
+          >
+            #33373B
+          </div>
+          <div
+            className="guide__section__card"
+            style={{
+              backgroundColor: " #FFFFFF",
+              color: "BLACK",
+            }}
+          >
+            #FFFFFF
+          </div>
+        </div>
+        <div className="guide__section__card__font">
+          <div className="guide__section__card__font__left">
+            <div className="guide__section__card__font__title">Typography</div>
+            <div className="guide__section__card__font__left__name">Inter</div>
+            <div className="guide__section__card__font__left__sub__name">
+              Semi-bold
+            </div>
+          </div>
+          <div className="guide__section__card__font__right">
+            <div className="guide__section__card__font__title">
+              Heading Font
+            </div>
+            <div className="guide__section__card__font__right__name">
+              Aa Bb Cc Dd Ee Ff Gg Hh li Kk LI Mm Nn Oo Pp Qq Rr Ss Tt Vv Xx Yy
+              Zz
+            </div>
+            <div className="guide__section__card__font__right__sub__name">
+              0123456789!@#$%*&*()_+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="result__container__over">
+        <div className="result__container">
+          <div className="result__container__heading">THE RESULT</div>
+          <div className="result__container__text__wraper__container">
+            <div className="result__container__text__wraper">
+              <div className="result__container__text__wraper__number">80%</div>
+              <div className="result__container__text__wraper__heading">
+                User satisfaction rate
+              </div>
+              <div className="result__container__text__wraper__subheading">
+                Our Web 3.0 development and design services left most users
+                satisfied.
+              </div>
+            </div>
+            <div className="result__container__text__wraper">
+              <div className="result__container__text__wraper__number">40%</div>
+              <div className="result__container__text__wraper__heading">
+                User satisfaction rate
+              </div>
+              <div className="result__container__text__wraper__subheading">
+                Our Web 3.0 development and design services left most users
+                satisfied.
+              </div>
+            </div>
+            <div className="result__container__text__wraper">
+              <div className="result__container__text__wraper__number">25%</div>
+              <div className="result__container__text__wraper__heading">
+                User satisfaction rate
+              </div>
+              <div className="result__container__text__wraper__subheading">
+                Our Web 3.0 development and design services left most users
+                satisfied.
+              </div>
+            </div>
+            <div className="result__container__text__wraper">
+              <div className="result__container__text__wraper__number">5%</div>
+              <div className="result__container__text__wraper__heading">
+                User satisfaction rate
+              </div>
+              <div className="result__container__text__wraper__subheading">
+                Our Web 3.0 development and design services left most users
+                satisfied.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
