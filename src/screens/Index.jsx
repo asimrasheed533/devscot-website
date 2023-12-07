@@ -144,7 +144,7 @@ export default function Index() {
       </div>
       <Solution />
       <GridContainer />
-      <Projectss />
+      {/* <Projectss /> */}
     </>
   );
 }

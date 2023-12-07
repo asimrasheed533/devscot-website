@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
+import MealAbouttext from "../components/MealAbouttext";
 export default function meal() {
   const [swiperSlides, setSwiperSlides] = React.useState(5);
   const checkWidth = () => {
@@ -108,6 +109,21 @@ export default function meal() {
         </div> */}
       </div>
       <div className="meal__text__header__container__bg"></div>
+      <div className="meal__about__container">
+        <div className="meal__about__container__heading">ABOUT THE PROJECT</div>
+        <MealAbouttext
+          heading="The client"
+          text="Our client is a visionary company that aims to simplify decentralized finance. With features offering convenience, user-friendly crypto design, and multi-currency support, their product — the Infinity wallet — seamlessly integrates into users’ lives, catering to all their financial needs."
+        />
+        <MealAbouttext
+          heading="Challenge"
+          text="The diverse and expansive functionality of the Infinity decentralized mobile app posed a complex challenge to our team. The Web 3 design demanded our attention across numerous screens to capture meaningful user interactions. Other hurdles included reinforcing security measures, offering versatile wallet control options, and enabling Infinity to replace multiple smaller applications."
+        />
+        <MealAbouttext
+          heading="Our solution"
+          text="Our goal evolved around the Infinity wallet’s consistency. We aimed to work out styles, fonts, and colors and compile a cohesive set of icons and elements for a seamless user experience across all pages. Our experts also focused on enhancing user-friendliness, reducing visual clutter, facilitating onboarding for beginners, and delivering all DeFi mobile app features properly."
+        />
+      </div>
     </>
   );
 }
