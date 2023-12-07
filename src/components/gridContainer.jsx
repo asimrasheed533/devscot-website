@@ -10,10 +10,10 @@ export function GridContainer({}) {
         </div>
         <div class="parent">
           <div class="div1">
-            <img src="https://picsum.photos/1000/1000" />
+            <img src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701919183/Group_1707485760_ch6tzg.webp" />
           </div>
           <div class="normal">
-            <img src="https://picsum.photos/1000/1000" />
+            <img src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701919182/Group_1707485761_diop0e.webp" />
           </div>
           <div class="normal">
             <img src="https://picsum.photos/1000/1000" />
