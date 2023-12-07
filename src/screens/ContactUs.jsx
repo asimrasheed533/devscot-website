@@ -104,10 +104,6 @@ export default function ContactUs() {
                 onChange={(e) => {
                   if (!e.target.value) {
                     setEmailError("Enter the correct mail addess");
-                  } else if (
-                    !e.target.value.match(/^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/)
-                  ) {
-                    setEmailError("Enter the correct mail addess");
                   } else {
                     setEmailError(null);
                   }
