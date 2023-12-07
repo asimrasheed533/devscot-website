@@ -7,6 +7,7 @@ import web from "../assets/web.png";
 import uiux from "../assets/uiux.png";
 import { Fade } from "react-reveal";
 import Projectss from "../components/Projects";
+import Solution from "../components/Solution";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -109,7 +110,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="services__container__card__wraper">
+        {/* <div className="services__container__card__wraper">
           <Swiper
             spaceBetween={50}
             pagination={{
@@ -139,8 +140,9 @@ export default function Index() {
               <ServicesCard cardimg={uiux} text="UI/UX" />
             </SwiperSlide>
           </Swiper>
-        </div>
+        </div> */}
       </div>
+      <Solution />
       <GridContainer />
       <Projectss />
     </>
