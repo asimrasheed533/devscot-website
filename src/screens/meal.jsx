@@ -127,6 +127,72 @@ export default function meal() {
           alt=""
         />
       </div>
+      <div className="Emphasizing__main__container">
+        <div className="Emphasizing__main__container__logo">
+          <img
+            src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701938382/Group_3_yjuhvx.webp"
+            alt="meal"
+          />
+        </div>
+        <div className="Emphasizing__main__container__heading">
+          Emphasizing consistency: creating a self-sufficient ecosystem within
+          Infinity
+        </div>
+        <div className="Emphasizing__main__container__subheading">
+          Our client is a visionary company that aims to simplify decentralized
+          finance. With features offering convenience
+        </div>
+        <div className="Emphasizing__main__container__project__img">
+          <img
+            src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701937239/Group_1707485770_ge8de0.webp"
+            alt=""
+          />
+        </div>
+      </div>
+      <div className="Emphasizing__main__container__bg__over">
+        <div className="Emphasizing__main__container__bg">
+          <svg
+            width="793"
+            height="1533"
+            viewBox="0 0 793 1533"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_f_1224_126)">
+              <circle
+                cx="26.5"
+                cy="766.5"
+                r="254.5"
+                fill="#00CE6E"
+                fill-opacity="0.58"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_1224_126"
+                x="-739.638"
+                y="0.361969"
+                width="1532.28"
+                height="1532.28"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="255.819"
+                  result="effect1_foregroundBlur_1224_126"
+                />
+              </filter>
+            </defs>
+          </svg>
+        </div>
+      </div>
     </>
   );
 }
