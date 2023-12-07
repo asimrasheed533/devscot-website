@@ -54,7 +54,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px 20px 50px;
+    // padding: 20px 50px 20px 50px;
     border-top: 1px solid rgb(201, 201, 201);
     cursor: pointer;
     transition: all 0.2s;
@@ -164,5 +164,10 @@
     text-align: center;
     width: 100%;
     margin-top: 1em;
+  }
+}
+@media (max-width: 700px) {
+  .projectsection__content__info__heading {
+    font-size: 20px;
   }
 }

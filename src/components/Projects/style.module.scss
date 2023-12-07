@@ -201,6 +201,10 @@
   .projects {
     padding: 2em;
     height: 960px;
+    margin-top: 0px;
+  }
+  .upper__text__wraper__sub__heading {
+    font-size: 35px;
   }
 }
 @media (max-width: 700px) {
@@ -214,7 +218,6 @@
     align-items: center;
     height: 1200px;
     flex-direction: column;
-    margin-top: 30px;
     .body {
       max-width: 1400px;
       width: 100%;
