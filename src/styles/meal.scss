@@ -146,6 +146,15 @@
 .meal__about__container__text__wraper__sub__heading {
   color: #a1a1aa;
 }
+.process__image {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 4em 2em;
+}
+.process__image img {
+  width: 100%;
+}
 @media (max-width: 900px) {
   .meal__text__header__container__right {
     width: 100%;

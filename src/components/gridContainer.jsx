@@ -27,7 +27,14 @@ export function GridContainer({}) {
           </div>
 
           <div class="normal">
-            <img src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701928989/Group_1707485877_g1ra1g.webp" />
+            <Link
+              to="/meal"
+              onClick={() => {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
+            >
+              <img src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701928989/Group_1707485877_g1ra1g.webp" />
+            </Link>
           </div>
 
           <div class="normal">

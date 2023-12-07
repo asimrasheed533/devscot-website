@@ -104,9 +104,6 @@ export default function meal() {
             </div>
           </SwiperSlide>
         </Swiper>
-        {/* <div className="project__header__imags__slider__card">
-          <img src={mealprj1} alt="image" />
-        </div> */}
       </div>
       <div className="meal__text__header__container__bg"></div>
       <div className="meal__about__container">
@@ -122,6 +119,12 @@ export default function meal() {
         <MealAbouttext
           heading="Our solution"
           text="Our goal evolved around the Infinity wallet’s consistency. We aimed to work out styles, fonts, and colors and compile a cohesive set of icons and elements for a seamless user experience across all pages. Our experts also focused on enhancing user-friendliness, reducing visual clutter, facilitating onboarding for beginners, and delivering all DeFi mobile app features properly."
+        />
+      </div>
+      <div className="process__image">
+        <img
+          src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701935150/Group_1707485878_mrsf2p.webp"
+          alt=""
         />
       </div>
     </>
