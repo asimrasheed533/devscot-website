@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 export function GridContainer({}) {
   return (
     <>
@@ -24,9 +25,11 @@ export function GridContainer({}) {
           <div class="normal">
             <img src="https://picsum.photos/1000/1000" />
           </div>
+
           <div class="normal">
-            <img src="https://picsum.photos/1000/1000" />
+            <img src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701928989/Group_1707485877_g1ra1g.webp" />
           </div>
+
           <div class="normal">
             <img src="https://picsum.photos/1000/1000" />
           </div>
