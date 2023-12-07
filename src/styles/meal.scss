@@ -143,6 +143,14 @@
 .meal__about__container__text__wraper__sub__heading {
   color: #a1a1aa;
 }
+.project__main__full__img {
+  width: 100%;
+}
+.project__main__full__img img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 700px;
+}
 .process__image {
   width: 100%;
   max-width: 1366px;

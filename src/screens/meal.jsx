@@ -121,6 +121,12 @@ export default function meal() {
           text="Our goal evolved around the Infinity wallet’s consistency. We aimed to work out styles, fonts, and colors and compile a cohesive set of icons and elements for a seamless user experience across all pages. Our experts also focused on enhancing user-friendliness, reducing visual clutter, facilitating onboarding for beginners, and delivering all DeFi mobile app features properly."
         />
       </div>
+      <div className="project__main__full__img">
+        <img
+          src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701950997/Mask_group_magxcz.webp"
+          alt="devscot"
+        />
+      </div>
       <div className="process__image">
         <img
           src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701935150/Group_1707485878_mrsf2p.webp"

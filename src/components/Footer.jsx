@@ -27,7 +27,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="footer__testim__wrapaer__quote__row">
-                <div className="footer__testim__wrapaer__quote__row__svg">
+                <div className="footer__testim__wrapaer__quote__row__svg1">
                   <svg
                     width="21"
                     height="18"
@@ -41,7 +41,7 @@ export default function Footer() {
                     />
                   </svg>
                 </div>
-                <div className="footer__testim__wrapaer__quote__row__svg">
+                <div className="footer__testim__wrapaer__quote__row__svg2">
                   <svg
                     width="19"
                     height="15"

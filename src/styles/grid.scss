@@ -39,46 +39,35 @@ body {
 }
 .parent div:nth-child(1) {
   grid-area: 1 / 1 / 3 / 4;
-  background-color: cyan;
 }
 .parent div:nth-child(2) {
   grid-area: 1 / 4 / 3 / 9;
-  background-color: yellow;
 }
 .parent div:nth-child(3) {
   grid-area: 3 / 6 / 5 / 9;
-  background-color: red;
 }
 .parent div:nth-child(4) {
   grid-area: 3 / 1 / 6 / 6;
-  background-color: green;
 }
 .parent div:nth-child(5) {
   grid-area: 5 / 6 / 8 / 9;
-  background-color: blue;
 }
 .parent div:nth-child(6) {
   grid-area: 8 / 6 / 13 / 9;
-  background-color: orange;
 }
 .parent div:nth-child(7) {
   grid-area: 6 / 1 / 13 / 3;
-  background-color: pink;
 }
 .parent div:nth-child(8) {
   grid-area: 6 / 3 / 10 / 6;
-  background-color: purple;
 }
 .parent div:nth-child(9) {
   grid-area: 10 / 3 / 13 / 6;
-  background-color: brown;
 }
 .normal {
-  background-color: cyan;
   grid-column: span 3;
 }
 .normal2 {
-  background-color: yellow;
   grid-column: span 5;
 }
 

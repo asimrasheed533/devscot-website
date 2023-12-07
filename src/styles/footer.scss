@@ -20,13 +20,13 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
 }
 .footer__testim__wrapaer__text {
   width: 100%;
-  max-width: 700px;
+  max-width: 900px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 600;
   color: white;
   display: flex;
   align-items: flex-start;
@@ -74,7 +74,7 @@
   align-items: center;
   justify-content: center;
 }
-.footer__testim__wrapaer__quote__row__svg {
+.footer__testim__wrapaer__quote__row__svg1 {
   cursor: pointer;
   border-radius: 40px;
   border: 1px solid white;
@@ -87,14 +87,40 @@
   align-items: center;
   justify-content: center;
   transition: 300ms ease-in-out;
+  background-color: #4733b5;
+  border: 1px solid #4733b5;
 }
-.footer__testim__wrapaer__quote__row__svg svg {
+.footer__testim__wrapaer__quote__row__svg2 {
+  cursor: pointer;
+  border-radius: 40px;
+  border: 1px solid white;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 60px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 300ms ease-in-out;
+  background-color: #0faadf;
+  border: 1px solid #0faadf;
+}
+.footer__testim__wrapaer__quote__row__svg1 svg {
   color: black;
 }
-.footer__testim__wrapaer__quote__row__svg:hover {
-  background-color: #4733b5;
+.footer__testim__wrapaer__quote__row__svg1:hover {
+  background-color: #050505;
   transition: 300ms ease-in-out;
-  border: 1px solid #4733b5;
+  border: 1px solid #f0ecec;
+}
+.footer__testim__wrapaer__quote__row__svg2 svg {
+  color: black;
+}
+.footer__testim__wrapaer__quote__row__svg2:hover {
+  background-color: #050505;
+  transition: 300ms ease-in-out;
+  border: 1px solid #f2f3f3;
 }
 
 .footer__explore__container {
@@ -104,7 +130,7 @@
   justify-content: center;
   flex-direction: column;
   color: white;
-  padding: 2em 4em;
+  padding: 1em 4em;
   border-radius: 33px;
   background: linear-gradient(98deg, #6554dc 10.19%, #4733b5 95.67%);
 }
@@ -113,10 +139,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2em 0em;
+  padding: 3em 0em;
 }
 .footer__explore__container__row__upper__heading {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 800;
   width: 100%;
   max-width: 400px;
@@ -148,15 +174,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2em 0em;
+  padding: 3em 0em;
   flex-wrap: wrap;
+  border-top: 1px solid #9e9e9e;
 }
 .footer__explore__container__col__first {
-  width: 40%;
-  max-width: 350px;
+  width: 50%;
+  padding-right: 4em;
 }
 .footer__explore__container__col__wraper {
-  width: 60%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -180,6 +207,7 @@
   text-align: left;
   align-items: flex-start;
   line-height: 24px;
+  font-size: 18px;
 }
 .footer__explore__container__col__heading {
   font-size: 18px;
@@ -200,6 +228,12 @@
   transition: 300ms ease-in-out;
 }
 @media (max-width: 1200px) {
+  .footer__explore__container__col__first {
+    width: 100%;
+    max-width: 700px;
+    padding-right: 0em;
+    margin-bottom: 1em;
+  }
   .footer__explore__container__row__bottom {
     flex-direction: column;
     justify-content: flex-start;
@@ -215,7 +249,6 @@
 @media (max-width: 950px) {
   .footer__explore__container__col__first {
     width: 100%;
-    max-width: 100%;
   }
   .footer__explore__container__row__upper {
     flex-direction: column;
@@ -226,6 +259,9 @@
   }
 }
 @media (max-width: 800px) {
+  .footer__explore__container {
+    padding: 1em 2em;
+  }
   .footer__explore__container__row__upper__heading {
     font-size: 30px;
     line-height: 40px;
@@ -235,6 +271,7 @@
   }
   .footer__explore__container__col {
     width: 30%;
+    align-items: flex-start;
   }
   .footer__over__main {
     padding: 2em;
@@ -254,14 +291,15 @@
     margin: 0.5em;
     padding: 0.5em;
   }
-  .footer__main__container {
-    padding: 0 2em;
-  }
+
   .footer__testim__wrapaer__text {
     text-align: center;
   }
 }
 @media (max-width: 600px) {
+  .footer__explore__container__col__text {
+    font-size: 16px;
+  }
   .footer__main__container {
     padding: 0em;
   }
@@ -269,11 +307,15 @@
     font-size: 24px;
     line-height: 30px;
   }
-  .footer__explore__container {
-    padding: 2em;
+  .footer__explore__container__col__heading {
+    font-size: 16px;
+  }
+  .footer__explore__container__col__entry {
+    font-size: 14px;
+    font-weight: 300;
   }
   .footer__explore__container__col {
-    width: 50%;
+    width: 25%;
     align-items: flex-start;
     justify-content: flex-start;
   }

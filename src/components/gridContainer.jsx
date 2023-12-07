@@ -17,13 +17,13 @@ export function GridContainer({}) {
             <img src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701919182/Group_1707485761_diop0e.webp" />
           </div>
           <div class="normal">
-            <img src="https://picsum.photos/1000/1000" />
+            <img src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701965379/Group_1707485887_vxeiiu.webp" />
           </div>
           <div class="normal">
-            <img src="https://picsum.photos/1000/1000" />
+            <img src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701965236/Group_1707485886_ehdbhg.webp" />
           </div>
           <div class="normal">
-            <img src="https://picsum.photos/1000/1000" />
+            <img src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701965515/Group_1707485889_lnqrln.webp" />
           </div>
 
           <div class="normal">
@@ -38,10 +38,10 @@ export function GridContainer({}) {
           </div>
 
           <div class="normal">
-            <img src="https://picsum.photos/1000/1000" />
+            <img src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701966247/Group_1707485891_ihgofh.webp" />
           </div>
           <div class="normal">
-            <img src="https://picsum.photos/1000/1000" />
+            <img src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701966370/Group_1707485893_wmkikj.webp" />
           </div>
           <div class="normal">
             <img src="https://picsum.photos/1000/1000" />
