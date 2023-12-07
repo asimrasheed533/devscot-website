@@ -115,8 +115,8 @@ export default function ContactUs() {
               ) : null}
             </div>
             <div className="contact__card__row__wraper__col__form__input">
-              <textarea
-                className="contact__card__row__wraper__col__form__input__textarea"
+              <input
+                // className="contact__card__row__wraper__col__form__input__textarea"
                 maxLength={500}
                 error={messageError}
                 type="text"
