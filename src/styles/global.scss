@@ -351,12 +351,12 @@ body {
     line-height: 39px;
     font-weight: 800;
   }
+}
+@media (max-width: 600px) {
   .services__container__main__wraper {
     flex-direction: column;
     align-items: flex-start;
   }
-}
-@media (max-width: 600px) {
   .about__contaner__overlay {
     top: -2em;
   }

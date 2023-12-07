@@ -51,7 +51,7 @@ export default function Solution() {
       <div className="homesection">
         <div className="cardsection__content">
           <div className="cardsection__content__right">
-            <ScrollContainer
+            <div
               horizontal={true}
               className="cardsection__content__right__content"
             >
@@ -68,53 +68,55 @@ export default function Solution() {
                   <div className="cardsection__content__right__content__card__image">
                     <img loading="lazy" src={item.image} alt={item.name} />
                   </div>
-                  <div className="cardsection__content__right__content__card__image__left__text">
-                    {item.title}
-                  </div>
-                  <div className="cardsection__content__right__content__card__text__heading">
-                    ------------- {item.heading}
-                  </div>
-                  <div className="cardsection__content__right__content__card__text__subheading">
-                    {item.subheading}
-                  </div>
-                  <div className="cardsection__content__right__content__card__text__deatil">
-                    {item.deatils}
-                  </div>
-                  <Link
-                    to={item.link}
-                    className="cardsection__content__right__content__card__text__svg"
-                  >
-                    <svg
-                      width="41"
-                      height="41"
-                      viewBox="0 0 41 41"
-                      fill="none"
-                      stroke="currentColor"
-                      xmlns="http://www.w3.org/2000/svg"
+                  <div className="cardsection__text__wraper">
+                    <div className="cardsection__content__right__content__card__image__left__text">
+                      {item.title}
+                    </div>
+                    <div className="cardsection__content__right__content__card__text__heading">
+                      ------------- {item.heading}
+                    </div>
+                    <div className="cardsection__content__right__content__card__text__subheading">
+                      {item.subheading}
+                    </div>
+                    <div className="cardsection__content__right__content__card__text__deatil">
+                      {item.deatils}
+                    </div>
+                    <Link
+                      to={item.link}
+                      className="cardsection__content__right__content__card__text__svg"
                     >
-                      <circle
-                        cx="20.5"
-                        cy="20.5"
-                        r="20.1694"
-                        stroke-width="0.66129"
-                      />
-                      <path
-                        d="M16.5322 24.4667L24.4677 16.5312"
-                        stroke-width="1.32258"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M18.0195 16.5312H24.4671V22.9788"
-                        stroke-width="1.32258"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </Link>
+                      <svg
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        stroke="currentColor"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle
+                          cx="20.5"
+                          cy="20.5"
+                          r="20.1694"
+                          stroke-width="0.66129"
+                        />
+                        <path
+                          d="M16.5322 24.4667L24.4677 16.5312"
+                          stroke-width="1.32258"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M18.0195 16.5312H24.4671V22.9788"
+                          stroke-width="1.32258"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </Link>
+                  </div>
                 </div>
               ))}
-            </ScrollContainer>
+            </div>
           </div>
         </div>
       </div>

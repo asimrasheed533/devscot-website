@@ -91,8 +91,7 @@
   .projects {
     display: flex;
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 2em;
     flex-direction: column;
     margin-top: 100px;
 
@@ -200,14 +199,10 @@
     padding: 2em;
   }
   .projects {
-    padding: 0 2em;
+    padding: 2em;
   }
 }
 @media (max-width: 700px) {
-  .projects {
-    margin: 2em 0em;
-  }
-
   .upper__text__wraper__sub__heading {
     font-size: 30px;
   }
@@ -216,8 +211,7 @@
   .projects {
     display: flex;
     align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+
     flex-direction: column;
     margin-top: 30px;
     .body {
