@@ -74,8 +74,8 @@ export default function Footer() {
                       viewBox="0 0 24 24"
                       fill="none"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                       stroke-linejoin="round"
                       class="feather feather-arrow-right"
                     >
@@ -217,36 +217,36 @@ export default function Footer() {
                           d="M21 11.875C21.0017 13.1922 20.7424 14.4966 20.237 15.7129C19.7316 16.9293 18.9901 18.0334 18.0555 18.9615C17.1286 19.8869 16.0283 20.6205 14.8177 21.1204C13.6071 21.6203 12.3098 21.8767 11 21.875C5.47701 21.875 1.00001 17.398 1.00001 11.875C0.996513 9.3109 1.98145 6.84409 3.75001 4.98751C4.68318 4.00281 5.80747 3.21888 7.05408 2.6837C8.30069 2.14852 9.64339 1.87334 11 1.87501C12.3098 1.87331 13.6071 2.12975 14.8177 2.62967C16.0283 3.12958 17.1286 3.86317 18.0555 4.78851C18.9901 5.71662 19.7316 6.82075 20.237 8.03709C20.7424 9.25343 21.0017 10.5579 21 11.875Z"
                           fill="white"
                           stroke="white"
-                          stroke-width="2"
-                          stroke-linecap="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
                           stroke-linejoin="round"
                         />
                         <path
                           d="M21.0002 11.8758C19.5412 11.8758 15.5162 11.3258 11.9136 12.9073C8.00014 14.6258 5.16664 17.2913 3.93164 18.9493"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
                           stroke-linejoin="round"
                         />
                         <path
                           d="M7.25 2.60156C8.815 4.04606 12.23 7.72357 13.5 11.3746C14.77 15.0256 15.24 19.5146 15.53 20.7921"
                           stroke="black"
-                          stroke-width="2"
-                          stroke-linecap="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
                           stroke-linejoin="round"
                         />
                         <path
                           d="M1.07715 10.6244C2.96615 10.7384 7.96666 10.8409 11.1667 9.47438C14.3667 8.10788 17.1202 5.59438 18.0647 4.79688"
                           stroke="black"
-                          stroke-width="2"
-                          stroke-linecap="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
                           stroke-linejoin="round"
                         />
                         <path
                           d="M1.75001 15.6815C2.63117 17.8145 4.22036 19.5787 6.25001 20.677M1.00001 11.875C0.996513 9.3109 1.98145 6.84409 3.75001 4.98751C4.68318 4.00281 5.80747 3.21888 7.05408 2.6837C8.30069 2.14852 9.64339 1.87334 11 1.87501M15 2.70701C16.1388 3.20528 17.175 3.91113 18.0555 4.78851C18.9901 5.71662 19.7316 6.82075 20.237 8.03709C20.7424 9.25342 21.0017 10.5579 21 11.875C21 13.106 20.7775 14.2855 20.37 15.375M11 21.875C12.3098 21.8767 13.6071 21.6203 14.8177 21.1204C16.0283 20.6205 17.1286 19.8869 18.0555 18.9615"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
                           stroke-linejoin="round"
                         />
                       </mask>

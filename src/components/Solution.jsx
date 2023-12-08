@@ -97,18 +97,18 @@ export default function Solution() {
                           cx="20.5"
                           cy="20.5"
                           r="20.1694"
-                          stroke-width="0.66129"
+                          strokeWidth="0.66129"
                         />
                         <path
                           d="M16.5322 24.4667L24.4677 16.5312"
-                          stroke-width="1.32258"
-                          stroke-linecap="round"
+                          strokeWidth="1.32258"
+                          strokeLinecap="round"
                           stroke-linejoin="round"
                         />
                         <path
                           d="M18.0195 16.5312H24.4671V22.9788"
-                          stroke-width="1.32258"
-                          stroke-linecap="round"
+                          strokeWidth="1.32258"
+                          strokeLinecap="round"
                           stroke-linejoin="round"
                         />
                       </svg>

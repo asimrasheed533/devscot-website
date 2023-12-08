@@ -108,7 +108,6 @@ export default function Header() {
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
                 to="/"
-                activeClassName="active"
                 className="header__nav__container__menu__links"
               >
                 Home
@@ -121,7 +120,6 @@ export default function Header() {
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
                 to="/aboutus"
-                activeClassName="active"
                 className="header__nav__container__menu__links"
               >
                 About US
@@ -134,7 +132,6 @@ export default function Header() {
                   }
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
-                activeClassName="active"
                 className="header__nav__container__menu__links"
               >
                 Our Work
@@ -147,7 +144,6 @@ export default function Header() {
                   }
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
-                activeClassName="active"
                 className="header__nav__container__menu__links"
               >
                 Blogs
@@ -160,7 +156,6 @@ export default function Header() {
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }}
                 to="/ContactUs"
-                activeClassName="active"
                 className="header__nav__container__menu__links__btn"
               >
                 Get Free Quote

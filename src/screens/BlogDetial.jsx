@@ -67,8 +67,8 @@ export default function BlogDetial() {
                 y2="491.8"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#7480E2" />
-                <stop offset="1" stop-color="#5DAFE1" />
+                <stop stopColor="#7480E2" />
+                <stop offset="1" stopColor="#5DAFE1" />
               </linearGradient>
             </defs>
           </svg>
@@ -125,8 +125,8 @@ export default function BlogDetial() {
               y2="491.8"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#7480E2" />
-              <stop offset="1" stop-color="#5DAFE1" />
+              <stop stopColor="#7480E2" />
+              <stop offset="1" stopColor="#5DAFE1" />
             </linearGradient>
           </defs>
         </svg>

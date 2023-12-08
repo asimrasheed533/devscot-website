@@ -44,7 +44,7 @@ export function GridContainer({}) {
             <img src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701966370/Group_1707485893_wmkikj.webp" />
           </div>
           <div class="normal">
-            <img src="https://picsum.photos/1000/1000" />
+            <img src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1702013029/Group_1707485926_t5e0gr.webp" />
           </div>
 
           {/* <div class="normal2">

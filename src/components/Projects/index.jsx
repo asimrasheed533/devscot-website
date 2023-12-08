@@ -43,8 +43,8 @@ export default function Home() {
               y2="46"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#564AC8" />
-              <stop offset="1" stop-color="#1DBDF5" />
+              <stop stopColor="#564AC8" />
+              <stop offset="1" stopColor="#1DBDF5" />
             </linearGradient>
           </defs>
         </svg>
@@ -77,8 +77,8 @@ export default function Home() {
               y2="46"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#564AC8" />
-              <stop offset="1" stop-color="#1DBDF5" />
+              <stop stopColor="#564AC8" />
+              <stop offset="1" stopColor="#1DBDF5" />
             </linearGradient>
           </defs>
         </svg>
@@ -123,8 +123,8 @@ export default function Home() {
               y2="46.9598"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.0309257" stop-color="#564AC8" />
-              <stop offset="1" stop-color="#1DBDF5" />
+              <stop offset="0.0309257" stopColor="#564AC8" />
+              <stop offset="1" stopColor="#1DBDF5" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_964_177"
@@ -134,8 +134,8 @@ export default function Home() {
               y2="45.3971"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.0309257" stop-color="#564AC8" />
-              <stop offset="1" stop-color="#1DBDF5" />
+              <stop offset="0.0309257" stopColor="#564AC8" />
+              <stop offset="1" stopColor="#1DBDF5" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_964_177"
@@ -145,8 +145,8 @@ export default function Home() {
               y2="38.382"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.0309257" stop-color="#564AC8" />
-              <stop offset="1" stop-color="#1DBDF5" />
+              <stop offset="0.0309257" stopColor="#564AC8" />
+              <stop offset="1" stopColor="#1DBDF5" />
             </linearGradient>
             <linearGradient
               id="paint3_linear_964_177"
@@ -156,8 +156,8 @@ export default function Home() {
               y2="28.9615"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.0309257" stop-color="#564AC8" />
-              <stop offset="1" stop-color="#1DBDF5" />
+              <stop offset="0.0309257" stopColor="#564AC8" />
+              <stop offset="1" stopColor="#1DBDF5" />
             </linearGradient>
           </defs>
         </svg>
