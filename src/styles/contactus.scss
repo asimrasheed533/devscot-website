@@ -164,6 +164,13 @@
   transition: 300ms ease-in-out;
   border-radius: 20px;
   color: white;
+  // background-color: red;
+  position: relative;
+}
+.sending__svg {
+  position: absolute;
+  right: 3em;
+  top: -2em;
 }
 .contact__card__row__wraper__col__form__btn__text:hover {
   cursor: pointer;

@@ -128,7 +128,7 @@ export default function GetDemo() {
                 disabled={processing}
                 className="get__demo__main__container__right__mail__wraper__input__button"
               >
-                {status === "sending" ? <SendingSVG /> : "Get started now"}
+                {status === "sending" ? <>sending...</> : "Get started now"}
               </button>
             </form>
             <p style={{ color: "red", fontSize: "14px" }}>{errorMail}</p>
@@ -141,6 +141,7 @@ export default function GetDemo() {
 
 export function SendingSVG() {
   return (
+    // <div className="section__svg">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
