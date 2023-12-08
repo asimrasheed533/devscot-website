@@ -123,7 +123,7 @@ export default function meal() {
       </div>
       <div className="project__main__full__img">
         <img
-          src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701950997/Mask_group_magxcz.webp"
+          src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1702008607/Group_1707485925_uvc7qk.webp"
           alt="devscot"
         />
       </div>
@@ -309,6 +309,94 @@ export default function meal() {
               <div className="result__container__text__wraper__subheading">
                 Our Web 3.0 development and design services left most users
                 satisfied.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="get__demo__main__container">
+        <div className="get__demo__main__container__left">
+          <img
+            className="get__demo__main__container__left__img"
+            src="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1702008938/Group_1707485772_tlqvjk.webp"
+            alt=""
+          />
+        </div>
+        <div className="get__demo__main__container__right">
+          <div className="get__demo__main__container__right__heading">
+            Get a demo 💪 Build Landing pages
+          </div>
+          <div className="get__demo__main__container__right__subheading">
+            Eu scelerisque amet amet malesuada id ultrices morbi. Vitae purus
+            mauris hac nisi habitasse donec. Vitae integer massa in blandit.
+          </div>
+          <div className="get__demo__main__container__right__mail__wraper__bg__over">
+            <div className="get__demo__main__container__right__mail__wraper__bg">
+              <svg
+                width="744"
+                height="263"
+                viewBox="0 0 744 263"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g opacity="0.3" filter="url(#filter0_f_1405_225)">
+                  <rect
+                    x="98"
+                    y="98"
+                    width="548"
+                    height="67"
+                    fill="url(#paint0_linear_1405_225)"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_f_1405_225"
+                    x="0.199997"
+                    y="0.199997"
+                    width="743.6"
+                    height="262.6"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="BackgroundImageFix"
+                      result="shape"
+                    />
+                    <feGaussianBlur
+                      stdDeviation="48.9"
+                      result="effect1_foregroundBlur_1405_225"
+                    />
+                  </filter>
+                  <linearGradient
+                    id="paint0_linear_1405_225"
+                    x1="107"
+                    y1="124.5"
+                    x2="387.618"
+                    y2="391.247"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#52D5FF" />
+                    <stop offset="1" stop-color="#7F60F9" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div className="get__demo__main__container__right__mail__wraper">
+              <div className="get__demo__main__container__right__mail__wraper__title">
+                Provide email address to get free demo
+              </div>
+              <div className="get__demo__main__container__right__mail__wraper__input__wraper">
+                <input
+                  className="get__demo__main__container__right__mail__wraper__input"
+                  type="email"
+                  placeholder="Enter your email address"
+                />
+                <button className="get__demo__main__container__right__mail__wraper__input__button">
+                  Get started now
+                </button>
               </div>
             </div>
           </div>
