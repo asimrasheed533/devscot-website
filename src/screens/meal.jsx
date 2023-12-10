@@ -173,7 +173,7 @@ export default function meal() {
                 cy="766.5"
                 r="254.5"
                 fill="#00CE6E"
-                fill-opacity="0.58"
+                fillOpacity="0.58"
               />
             </g>
             <defs>
