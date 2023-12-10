@@ -393,6 +393,7 @@ body {
   align-items: center;
   justify-content: space-between;
   color: #fff;
+  margin-top: 4em;
 }
 .engement__model__container__left {
   width: 50%;
@@ -438,10 +439,14 @@ body {
 .engement__model__container__card__one:hover {
   background-color: #131313;
   transition: 300ms ease-in-out;
+
+  transform: scale(1.1);
 }
 .engement__model__container__card__two:hover {
   background-color: #131313;
   transition: 300ms ease-in-out;
+
+  transform: scale(1.1);
 }
 .engement__model__card__one__heading {
   font-size: 26px;
@@ -453,15 +458,33 @@ body {
   font-weight: 300;
   line-height: 25px;
 }
-.engement__model__container__card__one:hover {
-  transition: 300ms ease-in-out;
-  transform: scale(1.1);
-}
-.engement__model__container__card__two:hover {
-  transition: 300ms ease-in-out;
-  transform: scale(1.1);
-}
 @media screen and (max-width: 1100px) {
+  .industries__main__container__wraper__lower__card__contant {
+    justify-content: center;
+  }
+  .industries__main__container__wraper__lower__card__contant__text {
+    padding: 0 2em;
+  }
+  .engement__model__container__left__heading {
+    font-size: 35px;
+  }
+  .engement__model__container {
+    flex-direction: column;
+  }
+  .engement__model__container__right {
+    width: 100%;
+    margin-top: 6em;
+  }
+  .engement__model__container {
+    margin-top: 0;
+  }
+  .engement__model__container__left {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
   .industries__main__container__wraper__lower__card {
     width: 100%;
   }
@@ -508,9 +531,7 @@ body {
   .industries__main__container__wraper__lower {
     margin: 0em;
   }
-  .industries__main__container__wraper__lower__card__contant {
-    justify-content: space-evenly;
-  }
+
   .industries__main__container__wraper__card__contant {
     padding: 2em;
   }
@@ -578,6 +599,12 @@ body {
 }
 
 @media (max-width: 700px) {
+  .engement__model__container__right {
+    flex-direction: column;
+  }
+  .engement__model__container__card__one {
+    transform: rotate(16deg);
+  }
   .industries__main__container__heading {
     font-size: 30px;
   }
@@ -613,6 +640,19 @@ body {
   }
 }
 @media (max-width: 600px) {
+  .engement__model__container {
+    padding: 2em;
+  }
+  .engement__model__container__card__one {
+    transform: rotate(0deg);
+  }
+  .engement__model__container__card__two {
+    transform: rotate(0deg);
+    margin-top: 1em;
+  }
+  .engement__model__container__left__heading {
+    font-size: 30px;
+  }
   .industries__main__container__overlay {
     padding: 1em;
   }
