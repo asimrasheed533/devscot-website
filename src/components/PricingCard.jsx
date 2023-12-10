@@ -58,7 +58,7 @@ export default function PricingCard() {
                   stroke="#71717A"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>
@@ -96,7 +96,7 @@ export default function PricingCard() {
                   stroke="#71717A"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>
@@ -134,7 +134,7 @@ export default function PricingCard() {
                   stroke="#71717A"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>
@@ -173,7 +173,7 @@ export default function PricingCard() {
                   stroke="#71717A"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>
@@ -226,7 +226,7 @@ export default function PricingCard() {
                   stroke="#71717A"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>
@@ -264,7 +264,7 @@ export default function PricingCard() {
                   stroke="#71717A"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>
@@ -302,7 +302,7 @@ export default function PricingCard() {
                   stroke="#71717A"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>
@@ -341,7 +341,7 @@ export default function PricingCard() {
                   stroke="#71717A"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>
@@ -392,7 +392,7 @@ export default function PricingCard() {
                   stroke="#71717A"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>
@@ -430,7 +430,7 @@ export default function PricingCard() {
                   stroke="#71717A"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>
@@ -468,7 +468,7 @@ export default function PricingCard() {
                   stroke="#71717A"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>
@@ -507,7 +507,7 @@ export default function PricingCard() {
                   stroke="#71717A"
                   strokeWidth="1.5"
                   strokeLinecap="round"
-                  stroke-linejoin="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </div>
