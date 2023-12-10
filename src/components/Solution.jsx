@@ -103,13 +103,13 @@ export default function Solution() {
                           d="M16.5322 24.4667L24.4677 16.5312"
                           strokeWidth="1.32258"
                           strokeLinecap="round"
-                          stroke-linejoin="round"
+                          strokeLinejoin="round"
                         />
                         <path
                           d="M18.0195 16.5312H24.4671V22.9788"
                           strokeWidth="1.32258"
                           strokeLinecap="round"
-                          stroke-linejoin="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </Link>
