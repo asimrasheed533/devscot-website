@@ -34,7 +34,7 @@ export default function BlogDetial() {
                 cy="550"
                 r="194"
                 fill="url(#paint0_linear_799_211)"
-                fill-opacity="0.41"
+                fillOpacity="0.41"
               />
             </g>
             <defs>
@@ -92,7 +92,7 @@ export default function BlogDetial() {
               cy="550"
               r="194"
               fill="url(#paint0_linear_799_212)"
-              fill-opacity="0.41"
+              fillOpacity="0.41"
             />
           </g>
           <defs>
