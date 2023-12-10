@@ -11,6 +11,8 @@ import Solution from "../components/Solution";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import Swipercard from "../components/Swipercard";
+// import { Swipercard } from "../components/Swipercard";
 // import "swiper/css/pagination";
 // import { Pagination } from "swiper/modules";
 export default function Index() {
@@ -587,12 +589,12 @@ export default function Index() {
                 <path
                   d="M12.2356 19.6914L11.8547 16.6671C11.744 15.788 12.3597 14.9839 13.2275 14.8746L26.2456 13.235C27.1134 13.1257 27.9093 13.7521 28.02 14.6312L28.4009 17.6555L12.2356 19.6914Z"
                   fill="#0FAADF"
-                  fill-opacity="0.42"
+                  fillOpacity="0.42"
                 />
                 <path
                   d="M26.2218 13.2374L19.6094 14.0702L19.9002 16.3795L20.1911 18.6889L28.402 17.6548L28.0211 14.6305C27.9104 13.7514 27.1033 13.1264 26.2218 13.2374Z"
                   fill="#0FAADF"
-                  fill-opacity="0.42"
+                  fillOpacity="0.42"
                 />
                 <path
                   d="M16.5357 20.7131C16.2521 20.7488 15.9949 20.5591 15.961 20.2892L15.6639 17.9305C15.6299 17.6607 15.832 17.4131 16.1155 17.3774C16.3989 17.3417 16.6563 17.5315 16.6903 17.8012L16.9873 20.16C17.0213 20.4298 16.819 20.6774 16.5357 20.7131Z"
@@ -662,6 +664,19 @@ export default function Index() {
         </div>
       </div>
 
+      {/* <div className="success__story__main__container__text">
+        <div className="success__story__main__container__text__heading">
+          The Success Stories Crafted By OurApp Development Company
+        </div>
+        <div className="success__story__main__container__text__subheading">
+          As a leading android app development company , we’ve met with several
+          entrepreneurs and discussed our passion for blending technologies to
+          develop highly intuitive and revolutionary solutions for their
+          businesses and audiences. And we would love to have you look at some
+          of them.
+        </div>
+      </div> */}
+      {/* <Swipercard /> */}
       {/* <Projectss /> */}
     </>
   );
