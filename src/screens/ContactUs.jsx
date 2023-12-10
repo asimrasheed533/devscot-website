@@ -10,12 +10,10 @@ export default function ContactUs() {
   const [status, setStatus] = useState("");
   const [processing, setProcessing] = React.useState(false);
   const waitFor = (ms) => new Promise((r) => setTimeout(r, ms));
-
   async function handelSubmit(e) {
     e.preventDefault();
     try {
       setProcessing(true);
-
       if (!name) {
         setNameError("Enter the Name");
       }
@@ -28,7 +26,6 @@ export default function ContactUs() {
       if (!message) {
         setMessageError("Enter the message");
       }
-
       if (name && email && email.includes("@") && message) {
         setNameError(null);
         setMessageError(null);
@@ -37,7 +34,6 @@ export default function ContactUs() {
         setName("");
         setEmail("");
         setMessage("");
-
         await waitFor(2000);
         setStatus("");
       }
@@ -47,7 +43,6 @@ export default function ContactUs() {
       setProcessing(false);
     }
   }
-
   return (
     <>
       <div className="contact__main__container__header__over">
