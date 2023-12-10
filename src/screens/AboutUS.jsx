@@ -39,7 +39,7 @@ export default function AboutUS() {
                   cy="22.5"
                   r="22.5"
                   fill="#604ED5"
-                  fill-opacity="0.14"
+                  fillOpacity="0.14"
                 />
                 <circle cx="22.1343" cy="22.1343" r="18.1343" fill="#604ED5" />
                 <path
@@ -72,7 +72,7 @@ export default function AboutUS() {
                   cy="22.5"
                   r="22.5"
                   fill="#604ED5"
-                  fill-opacity="0.14"
+                  fillOpacity="0.14"
                 />
                 <circle cx="22.1343" cy="22.1343" r="18.1343" fill="#604ED5" />
                 <path
@@ -105,7 +105,7 @@ export default function AboutUS() {
                   cy="22.5"
                   r="22.5"
                   fill="#604ED5"
-                  fill-opacity="0.14"
+                  fillOpacity="0.14"
                 />
                 <circle cx="22.1343" cy="22.1343" r="18.1343" fill="#604ED5" />
                 <path
@@ -138,7 +138,7 @@ export default function AboutUS() {
                   cy="22.5"
                   r="22.5"
                   fill="#604ED5"
-                  fill-opacity="0.14"
+                  fillOpacity="0.14"
                 />
                 <circle cx="22.1343" cy="22.1343" r="18.1343" fill="#604ED5" />
                 <path
