@@ -19,7 +19,8 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  padding-bottom: 4em;
+  padding: 0 2em;
+  // padding-bottom: 4em;
 }
 .footer__testim__wrapaer__text {
   width: 100%;
@@ -35,7 +36,7 @@
   padding: 2em 0em;
 }
 .footer__testim__wrapaer__quote {
-  width: 100%;
+  // width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,7 +72,11 @@
 .footer__testim__wrapaer__quote__row {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  margin-bottom: 4em;
+  position: relative;
+  margin-top: -5em;
+  z-index: 9999;
 }
 .footer__testim__wrapaer__quote__row__svg1 {
   cursor: pointer;
@@ -334,11 +339,11 @@
   }
   .footer__testim__wrapaer__quote__row__first {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
   }
   .footer__testim__wrapaer__quote__row__text {
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     text-align: center;
   }

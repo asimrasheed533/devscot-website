@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ScrollContainer from "react-indiana-drag-scroll";
 import clsx from "clsx";
 import { Link } from "react-router-dom";
 export default function Solution() {
