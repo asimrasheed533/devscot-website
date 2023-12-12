@@ -664,7 +664,7 @@ export default function Index() {
         </div>
       </div>
 
-      {/* <div className="success__story__main__container__text">
+      <div className="success__story__main__container__text">
         <div className="success__story__main__container__text__heading">
           The Success Stories Crafted By OurApp Development Company
         </div>
@@ -675,8 +675,8 @@ export default function Index() {
           businesses and audiences. And we would love to have you look at some
           of them.
         </div>
-      </div> */}
-      {/* <Swipercard /> */}
+      </div>
+      <Swipercard />
       {/* <Projectss /> */}
     </>
   );

@@ -41,14 +41,14 @@ export default function Swipercard() {
                 subheading="Equitrip is a digital platform for horse owners, horse transportation companies, and other industry stakeholders to connect and collaborate to make horse transport convenient."
               />
             </SwiperSlide>
-            {/* <SwiperSlide>
+            <SwiperSlide>
               <SuccessSwiper
                 bg="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1702184429/Group_1707485942_rcerir.webp"
                 image="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1702185010/IMAGE_2_eaugdb.webp"
                 heading="TeeMates"
                 subheading="TeeMates is a social media app for golfers where they can connect, network and share their golfing stories through TeeTimes with other buddies around the world."
               />
-            </SwiperSlide> */}
+            </SwiperSlide>
             <SwiperSlide>
               <SuccessSwiper
                 bg="https://res.cloudinary.com/dsxbqyjwo/image/upload/v1702184856/Rectangle_1_mbaydp.webp"

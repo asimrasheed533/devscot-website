@@ -533,8 +533,9 @@ body {
 }
 .success__story__swiper__card__img img {
   width: 100%;
-  max-width: 400px;
-  object-fit: cover;
+  height: 100%;
+  max-height: 400px;
+  object-fit: contain;
 }
 .success__story__main__container__text {
   width: 100%;
