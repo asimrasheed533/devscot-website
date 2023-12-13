@@ -144,9 +144,10 @@ export default function Footer() {
                 </svg>
               </div>
               <div className="footer__explore__container__col__text">
-                Eu scelerisque amet amet malesuada id ultrices morbi. Vitae
-                purus mauris hac nisi habitasse donec. Vitae integer massa in
-                blandit.
+                We're a trusted web and mobile app development agency with
+                expertise in SaaS, Media, Marketing Tech, and AI development.
+                Whether you're a startup, an agency, or a big company, we've got
+                you covered.
               </div>
             </div>
             <div className="footer__explore__container__col__wraper">
