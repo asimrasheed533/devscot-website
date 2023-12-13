@@ -57,7 +57,7 @@ export default function Index() {
               POSSIBILITLES
             </div>
             <div className="main__header__container__text__btn">
-              <button class="btn"> Check out our work</button>
+              <button className="btn"> Check out our work</button>
             </div>
           </div>
           <div className="main__header__container__imgs">
@@ -103,11 +103,11 @@ export default function Index() {
             OUR <div className="sevrive__svg">Solution</div>
           </div>
           <div className="services__container__btn">
-            <button class="learn-more">
-              <span class="circle" aria-hidden="true">
-                <span class="icon arrow"></span>
+            <button className="learn-more">
+              <span className="circle" aria-hidden="true">
+                <span className="icon arrow"></span>
               </span>
-              <span class="button-text">View all</span>
+              <span className="button-text">View all</span>
             </button>
           </div>
         </div>
@@ -149,7 +149,7 @@ export default function Index() {
       <div className="industries__main__container">
         <div className="industries__main__container__overlay">
           <div className="industries__main__container__heading">
-            <span>Industries</span>we have served
+            <span>Our Process</span>of work
           </div>
           <div className="industries__main__container__wraper">
             <div className="industries__main__container__wraper__upper">
@@ -204,13 +204,13 @@ export default function Index() {
                   </div>
                   <div className="industries__main__container__wraper__card__right">
                     <div className="industries__main__container__wraper__card__right__text">
-                      Make impovements
+                      Competitor Analysis
                     </div>
                     <div className="industries__main__container__wraper__card__right__text">
-                      Explore opportunities
+                      Stakeholder Interviews
                     </div>
                     <div className="industries__main__container__wraper__card__right__text">
-                      Define competitors
+                      User Feedback & Validation
                     </div>
                   </div>
                 </div>
@@ -253,18 +253,18 @@ export default function Index() {
                       </svg>
                     </div>
                     <div className="industries__main__container__wraper__card__left__title">
-                      Research
+                      Strategy
                     </div>
                   </div>
                   <div className="industries__main__container__wraper__card__right">
                     <div className="industries__main__container__wraper__card__right__text">
-                      Make impovements
+                      Product Planning
                     </div>
                     <div className="industries__main__container__wraper__card__right__text">
-                      Explore opportunities
+                      Feature List Development
                     </div>
                     <div className="industries__main__container__wraper__card__right__text">
-                      Define competitors
+                      User Flow Definition
                     </div>
                   </div>
                 </div>
@@ -274,7 +274,7 @@ export default function Index() {
               <div className="industries__main__container__wraper__lower__card__over">
                 <div className="industries__main__container__wraper__lower__card">
                   <div className="industries__main__container__wraper__lower__card__heading">
-                    Brand Identity
+                    Product Design
                   </div>
                   <div className="industries__main__container__wraper__lower__card__contant">
                     <div className="industries__main__container__wraper__lower__card__contant__svg">
@@ -347,24 +347,24 @@ export default function Index() {
                         />
                       </svg>
                     </div>
-                    <div className="industries__main__container__wraper__lower__card__contant__text">
-                      <div className="industries__main__container__wraper__card__right__text">
-                        Values & personality
-                      </div>
-                      <div className="industries__main__container__wraper__card__right__text">
-                        Values & personality
-                      </div>
-                      <div className="industries__main__container__wraper__card__right__text">
-                        Values & personality
-                      </div>
-                    </div>
+                    <ul className="industries__main__container__wraper__lower__card__contant__text">
+                      <li className="industries__main__container__wraper__card__right__text">
+                        Brand Design
+                      </li>
+                      <li className="industries__main__container__wraper__card__right__text">
+                        UX/UI Design
+                      </li>
+                      <li className="industries__main__container__wraper__card__right__text">
+                        Design Prototype
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
               <div className="industries__main__container__wraper__lower__card__over">
                 <div className="industries__main__container__wraper__lower__card">
                   <div className="industries__main__container__wraper__lower__card__heading">
-                    Brand Identity
+                    Engineering
                   </div>
                   <div className="industries__main__container__wraper__lower__card__contant">
                     <div className="industries__main__container__wraper__lower__card__contant__svg">
@@ -437,24 +437,24 @@ export default function Index() {
                         />
                       </svg>
                     </div>
-                    <div className="industries__main__container__wraper__lower__card__contant__text">
-                      <div className="industries__main__container__wraper__card__right__text">
-                        Values & personality
-                      </div>
-                      <div className="industries__main__container__wraper__card__right__text">
-                        Values & personality
-                      </div>
-                      <div className="industries__main__container__wraper__card__right__text">
-                        Values & personality
-                      </div>
-                    </div>
+                    <ul className="industries__main__container__wraper__lower__card__contant__text">
+                      <li className="industries__main__container__wraper__card__right__text">
+                        Backend & API Development
+                      </li>
+                      <li className="industries__main__container__wraper__card__right__text">
+                        Mobile App Development & Web Platforms
+                      </li>
+                      <li className="industries__main__container__wraper__card__right__text">
+                        QA Testing & Analytics
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
               <div className="industries__main__container__wraper__lower__card__over">
                 <div className="industries__main__container__wraper__lower__card">
                   <div className="industries__main__container__wraper__lower__card__heading">
-                    Brand Identity
+                    Launch & Growth
                   </div>
                   <div className="industries__main__container__wraper__lower__card__contant">
                     <div className="industries__main__container__wraper__lower__card__contant__svg">
@@ -527,17 +527,17 @@ export default function Index() {
                         />
                       </svg>
                     </div>
-                    <div className="industries__main__container__wraper__lower__card__contant__text">
-                      <div className="industries__main__container__wraper__card__right__text">
-                        Values & personality
-                      </div>
-                      <div className="industries__main__container__wraper__card__right__text">
-                        Values & personality
-                      </div>
-                      <div className="industries__main__container__wraper__card__right__text">
-                        Values & personality
-                      </div>
-                    </div>
+                    <ul className="industries__main__container__wraper__lower__card__contant__text">
+                      <li className="industries__main__container__wraper__card__right__text">
+                        App Store Setup & Approvals
+                      </li>
+                      <li className="industries__main__container__wraper__card__right__text">
+                        Ongoing Measurement & Prioritization
+                      </li>
+                      <li className="industries__main__container__wraper__card__right__text">
+                        Agile Planning & Release Management
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -551,9 +551,8 @@ export default function Index() {
             ENGAGEMENT MODELS
           </div>
           <div className="engement__model__container__left__subheading">
-            Engagement models encompass various strategies and pricing
-            structures that businesses employ to connect with and retain
-            customers.
+            Depending on your project specifics and needs, you can choose method
+            of your own choice
           </div>
         </div>
         <div className="engement__model__container__right">
@@ -607,12 +606,12 @@ export default function Index() {
               </svg>
             </div>
             <div className="engement__model__card__one__heading">
-              Scope of work
+              Build Your Dedicated Teams
             </div>
             <div className="engement__model__card__one__subheading">
-              The scope of work is a crucial document that delineates project
-              tasks, responsibilities, and deliverables, facilitating project
-              success.
+              Get your projects fast-tracked with the best technical and
+              management talent. Increase quality and efficiency, and retain
+              complete control of teams.
             </div>
           </div>
           <div className="engement__model__container__card__two">
@@ -654,11 +653,11 @@ export default function Index() {
               </svg>
             </div>
             <div className="engement__model__card__one__heading">
-              Product discovery
+              Fixed Price Project
             </div>
             <div className="engement__model__card__one__subheading">
-              Product discovery is the process of identifying and defining new
-              product ideas or improvements to existing products.
+              Get a comprehensive product development experience from design to
+              delivery with reduced development costs.
             </div>
           </div>
         </div>
@@ -666,14 +665,16 @@ export default function Index() {
 
       <div className="success__story__main__container__text">
         <div className="success__story__main__container__text__heading">
-          The Success Stories Crafted By OurApp Development Company
+          The Success Stories Crafted By Our Software Solution Experts
         </div>
         <div className="success__story__main__container__text__subheading">
-          As a leading android app development company , we’ve met with several
-          entrepreneurs and discussed our passion for blending technologies to
-          develop highly intuitive and revolutionary solutions for their
-          businesses and audiences. And we would love to have you look at some
-          of them.
+          As a leading software development company, we've had the privilege of
+          working with numerous businesses and entrepreneurs, collaborating
+          closely to create highly intuitive and revolutionary solutions
+          tailored to their unique needs. We take pride in blending technologies
+          to deliver innovative software solutions for our clients and their
+          audiences. We invite you to explore some of our notable projects
+          below.
         </div>
       </div>
       <Swipercard />
