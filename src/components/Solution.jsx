@@ -5,44 +5,44 @@ export default function Solution() {
   const [activeCard, setActiveCard] = useState(0);
   const cardList = [
     {
-      title: "Art Vectors",
+      title: "Web App Development",
       image:
         "https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701847091/Group_1707485816_yhtgnk.webp",
-      heading: "DESIGN",
-      subheading: "Art Vectors & Illustrationst",
+      heading: "Responsive Solutions",
+      subheading: "Web App Development ",
       deatils:
-        "Seeing rather her you not esteem men settle genius excuse.Deal say over you age from. Comparison new hormonic melancholy.",
+        "Build responsive and scalable web applications. Get delightful high-performant apps that deliver the best UI/UX experience.",
       link: "/web",
     },
     {
-      title: "Austin & Studio",
+      title: "Mobile app development",
       image:
         "https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701854908/Group_1707485843_zhcktu.webp",
 
-      heading: "BRANDING",
-      subheading: "Downtown Austin & Studio",
+      heading: "Native & Hybrid Apps",
+      subheading: "Mobile App Development",
       deatils:
-        "Seeing rather her you not esteem men settle genius excuse.Deal say over you age from. Comparison new hormonic melancholy.",
+        "Get native and hybrid mobile applications that will be the perfect solution to your complex business needs.",
     },
     {
-      title: "Creative Ideas",
+      title: "Custome Software Development",
       image:
         "https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701855044/Group_1707485844_ezhlst.webp",
 
-      heading: "PHOTO",
-      subheading: "Creative Project Ideas",
+      heading: "Tailored Products",
+      subheading: "Custome Software Development",
       deatils:
-        "Seeing rather her you not esteem men settle genius excuse.Deal say over you age from. Comparison new hormonic melancholy.",
+        "From web and mobile applications to enterprise software solutions, we leverage the latest technologies and industry best practices to deliver robust and scalable software products.",
     },
     {
-      title: "Branding",
+      title: "Startup Services",
       image:
         "https://res.cloudinary.com/dsxbqyjwo/image/upload/v1701855231/Group_1707485846_dviuju.webp",
 
-      heading: "CREATIVE",
-      subheading: "Digital Branding & Marketing",
+      heading: "Idea to Reality",
+      subheading: "Startup Services",
       deatils:
-        "Seeing rather her you not esteem men settle genius excuse.Deal say over you age from. Comparison new hormonic melancholy.",
+        "We work closely with startups to turn ideas into reality, providing the necessary technical expertise and support to help them succeed in their markets.",
     },
   ];
   return (
@@ -51,7 +51,7 @@ export default function Solution() {
         <div className="cardsection__content">
           <div className="cardsection__content__right">
             <div
-              horizontal={true}
+              horizontal={"true"}
               className="cardsection__content__right__content"
             >
               {cardList.map((item, index) => (
