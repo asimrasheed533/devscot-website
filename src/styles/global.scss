@@ -327,17 +327,17 @@ body {
   position: relative;
   color: #b1b1b1;
 }
-.industries__main__container__wraper__card__right__text::before {
-  content: "";
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  top: 5px;
-  left: -12px;
-  border-radius: 20px;
-  background-color: #fff;
-  margin-top: 0.5em;
-}
+// .industries__main__container__wraper__card__right__text::before {
+//   content: "";
+//   position: absolute;
+//   width: 6px;
+//   height: 6px;
+//   top: 5px;
+//   left: -12px;
+//   border-radius: 20px;
+//   background-color: #fff;
+//   margin-top: 0.5em;
+// }
 .industries__main__container__wraper__card__left__title {
   font-size: 35px;
   padding-top: 0.4em;
@@ -355,10 +355,13 @@ body {
 .industries__main__container__wraper__lower__card__over {
   width: 32%;
   padding: 2px;
+  min-height: 350px;
   border-radius: 25px;
   transition: 300ms ease-in-out;
 }
 .industries__main__container__wraper__lower__card {
+  width: 100%;
+  min-height: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -380,9 +383,10 @@ body {
 .industries__main__container__wraper__lower__card__contant {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 90%;
   margin-top: 1em;
+  gap: 1em;
 }
 .engement__model__container {
   width: 100%;
@@ -568,6 +572,11 @@ body {
   color: #a1a1aa;
   padding: 1em 0;
 }
+@media (max-width: 1250px) {
+  .industries__main__container__wraper__lower__card__contant {
+    flex-direction: column;
+  }
+}
 @media screen and (max-width: 1100px) {
   .success__story__swiper__card__text__enty__wraper {
     flex-direction: column;
@@ -582,7 +591,7 @@ body {
     justify-content: center;
   }
   .industries__main__container__wraper__lower__card__contant__text {
-    padding: 0 2em;
+    padding: 0em 2em;
   }
   .engement__model__container__left__heading {
     font-size: 35px;
@@ -607,9 +616,11 @@ body {
   .industries__main__container__wraper__lower__card {
     width: 100%;
   }
-
+  .industries__main__container__wraper__lower {
+    margin: 0em;
+  }
   .industries__main__container__wraper__lower__card__over {
-    width: 45%;
+    width: 100%;
     margin-bottom: 1em;
   }
   .industries__main__container__wraper__lower {
@@ -659,9 +670,7 @@ body {
   .industries__main__container__wraper__card {
     padding: 1px;
   }
-  .industries__main__container__wraper__lower__card__over {
-    width: 100%;
-  }
+
   .industries__main__container__wraper__lower {
     margin: 0em;
   }
